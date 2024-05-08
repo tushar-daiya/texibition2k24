@@ -24,12 +24,20 @@ const ContactComponent = ({ person }) => {
         <p className="text-center font-clash text-lg font-medium">
           Name : <span>{person.name}</span>
         </p>
-        <p className="text-center font-clash text-lg">
-          Phone :{" "}
-          <span>
-            <Link to={`tel:${person.phone}`}>{person.phone}</Link>
-          </span>
-        </p>
+        {person.department && (
+          <p className="text-center font-clash text-lg ">
+            Department :{" "}
+            <span className="break-words">{person.department}</span>
+          </p>
+        )}
+        {person.phone && (
+          <p className="text-center font-clash text-lg">
+            Phone :{" "}
+            <span>
+              <Link to={`tel:${person.phone}`}>{person.phone}</Link>
+            </span>
+          </p>
+        )}
       </div>
     </div>
   );
