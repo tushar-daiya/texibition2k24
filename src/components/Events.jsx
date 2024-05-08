@@ -45,7 +45,7 @@ const Events = () => {
   const technicalEvents = [
     {
       image: Image1,
-      url: "event/code-golf",
+      url: "event/bluster",
       i: -2,
     },
     {
@@ -60,7 +60,7 @@ const Events = () => {
     },
     {
       image: Image4,
-      url: "event/memo-pia",
+      url: "event/intel-workshop",
       i: 1,
     },
     {
@@ -115,7 +115,10 @@ const Events = () => {
   };
   return (
     <div>
-      <div  id="eventButtons" className="mx-auto flex max-w-[300px] justify-between font-medium xl:mb-20">
+      <div
+        id="eventButtons"
+        className="mx-auto flex max-w-[300px] justify-between font-medium xl:mb-20"
+      >
         <button
           onClick={click1}
           className={`${selected == "btn1" ? "bg-primary text-white" : "bg-white text-black"}  px-5 py-2`}

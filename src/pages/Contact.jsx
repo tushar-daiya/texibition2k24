@@ -8,11 +8,19 @@ import Image3 from "/debarun.webp";
 import Image4 from "/jitu.webp";
 import Image5 from "/romit.webp";
 import Image6 from "/saurabh.webp";
+import Image7 from "/parthapratim.webp";
 
 const Contact = () => {
   const persons = [
     {
       id: 1,
+      name: "Mr. Partha Pratim Dasgupta",
+      phone: "72787 71731",
+      post: "Convener",
+      image: Image7,
+    },
+    {
+      id: 7,
       name: "Romit Pal",
       phone: "7044050975",
       post: "Coordinator",

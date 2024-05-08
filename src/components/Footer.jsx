@@ -52,13 +52,13 @@ const Footer = () => {
                 to="/"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
-                <AiOutlineGlobal size="3rem" />
+                <AiOutlineGlobal className="hover:scale-110 transition-all" size="3rem" />
               </Link>
               <Link
                 to="/"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
-                <FaInstagram size="3rem" />
+                <FaInstagram className="hover:scale-110 transition-all" size="3rem" />
               </Link>
             </div>
           </div>

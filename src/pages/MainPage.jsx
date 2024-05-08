@@ -3,10 +3,11 @@ import Hero from "../components/Hero";
 import EventSection from "../components/EventSection";
 
 const MainPage = () => {
+  const eventRef = React.useRef(null);
   return (
     <div>
-      <Hero />
-      <EventSection />
+      <Hero eventRef={eventRef} />
+      <EventSection eventRef={eventRef} />
     </div>
   );
 };

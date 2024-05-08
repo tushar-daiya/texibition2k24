@@ -2,9 +2,9 @@ import React from "react";
 import Heading from "./Heading";
 import Events from "./Events";
 
-const EventSection = () => {
+const EventSection = ({eventRef}) => {
   return (
-    <div id="events" className="mt-20 ">
+    <div ref={eventRef} id="events" className="mt-20 ">
       <Heading text="What's happening?" />
       <Events />
     </div>

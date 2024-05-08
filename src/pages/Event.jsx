@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import RegisterButton from "../components/RegisterButton";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Link } from "react-router-dom/dist";
 const Event = () => {
   const { eventId } = useParams();
   const event = events.find((event) => event.eventId === eventId);
@@ -25,6 +26,7 @@ const Event = () => {
       ease: "power2.out",
     });
   });
+  console.log(event);
   if (event) {
     return (
       <div className="mx-5 max-w-screen-xl md:mx-auto">
@@ -45,18 +47,26 @@ const Event = () => {
                 <p>
                   Reg Fees: <span className="ml-5">{event.fees}</span>
                 </p>
+                <p>
+                  Event Type: <span className="ml-5">{event.eventType}</span>
+                </p>
               </div>
               <div className="mt-7 *:font-medium">
                 <h3 className="mb-3 text-3xl">Coordinator Details</h3>
                 {event.coordinators.map((coordinator) => (
                   <p className="mb-2 text-xl">
-                    {coordinator.name}: {coordinator.phone}
+                    {coordinator.name}:{" "}
+                    <Link className="ml-5" to={`tel:${coordinator.phone}`}>
+                      {coordinator.phone}
+                    </Link>
                   </p>
                 ))}
               </div>
             </div>
             <div className="mt-5 text-center md:mt-0">
-              <RegisterButton />
+              <Link to={event.url} target="_blank">
+                <RegisterButton />
+              </Link>
             </div>
           </div>
         </div>
