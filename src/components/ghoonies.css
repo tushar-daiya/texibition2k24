@@ -1,0 +1,88 @@
+
+
+/* */
+.arrriii {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.posterholder {
+  margin: 4px;
+  height: 350px;
+  width: 300px;
+  border-radius: 10px;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.animation {
+  animation: fadeup 0.5s;
+  transition: 0.5s;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+.firstcontainer1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column-reverse;
+}
+
+
+.screen1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.screen1 .posterholder1 {
+  position: absolute;
+  height: 350px;
+  width: 250px;
+  cursor: pointer;
+  transition: 0.5s;
+  transform-origin: 50% 100%;
+  border-radius: 0px;
+}
+.screen1:hover .posterholder1 {
+  transform: rotate(calc(var(--i) * 5deg))
+    translate(calc(var(--i) * 180px), -50px);
+}
+.screen1 .posterholder1:hover {
+  translate: calc(var(--i) * 20px) -50px;
+  z-index: 100;
+}
+
+.image1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}

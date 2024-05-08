@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fira+Code:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Clash";
+  src: url("./fonts/ClashDisplay-Variable.ttf");
+}
+html {
+  scroll-behavior: smooth;
+}
+.datebg {
+  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0% 100%);
+}
+body {
+  font-family: "Clash";
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.registerButton::after {
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0%;
+}
+.registerButton:hover::after {
+  width: 135%;
+  height: 100%;
+}
+
+button {
+  background-color: black;
+}

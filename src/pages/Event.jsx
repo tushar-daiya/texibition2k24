@@ -1,0 +1,60 @@
+import React from "react";
+import Heading from "../components/Heading";
+import { events } from "../data/events";
+import { useParams } from "react-router-dom";
+import RegisterButton from "../components/RegisterButton";
+const Event = () => {
+  const { eventId } = useParams();
+  const event = events.find((event) => event.eventId === eventId);
+  if (!event) return <h1>Event not found</h1>;
+  if (event) {
+    return (
+      <div className="mx-5 max-w-screen-xl md:mx-auto">
+        <Heading text={event.event_name} />
+        <div className="mt-5 flex flex-col rounded-2xl border border-solid border-white bg-white bg-opacity-10 backdrop-blur-md overflow-hidden md:flex-row">
+          <img
+            src={event.image}
+            alt="Event"
+            className="sticky w-full md:w-1/3"
+          />
+          <div className="flex flex-col justify-between overflow-y-scroll px-5 py-10 ">
+            <div>
+              <p className="font-fira text-lg leading-relaxed md:text-xl">
+                {event.event_description}
+              </p>
+
+              <div className="font-xl mt-5 font-clash text-xl font-medium">
+                <p>
+                  Reg Fees: <span className="ml-5">{event.fees}</span>
+                </p>
+              </div>
+              <div className="mt-7 *:font-medium">
+                <h3 className="mb-3 text-3xl">Coordinator Details</h3>
+                {event.coordinators.map((coordinator) => (
+                  <p className="mb-2 text-xl">
+                    {coordinator.name}: {coordinator.phone}
+                  </p>
+                ))}
+              </div>
+            </div>
+            <div className="mt-5 text-center md:mt-0">
+              <RegisterButton />
+            </div>
+          </div>
+        </div>
+        <div className="mt-10">
+          <div>
+            <h3 className="mt-5 text-center text-3xl font-bold">Rules</h3>
+            <ul className="*:font-fira ml-5 list-disc *:mt-3 *:text-lg marker:text-primary md:*:text-xl">
+              {event.rules.map((rule) => (
+                <li>{rule}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    );
+  }
+};
+
+export default Event;
