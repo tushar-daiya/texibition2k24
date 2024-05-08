@@ -3,9 +3,6 @@ import { Clock } from "./Clock";
 import { useEffect } from "react";
 import Date from "./Date";
 import RegisterButton from "../components/RegisterButton";
-
-import { useState } from "react";
-import { useRef } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -33,13 +30,14 @@ const Hero = () => {
     gsap.from(".date", {
       duration: 1,
       opacity: 0,
+      delay: 0.5,
       x: -100,
       ease: "power2.out",
     });
     gsap.from(".dateTime", {
       duration: 1,
       opacity: 0,
-      delay: 0.5,
+      delay: 1,
       y: 100,
       ease: "power2.out",
     });
@@ -73,7 +71,7 @@ const Hero = () => {
           BRAINWARE UNIVERSITY PRESENTS
         </h1>
         <img
-          src="/logo.png"
+          src="/logo.webp"
           className="logo mx-auto max-w-[80%] md:w-[50%]"
           alt=""
         />

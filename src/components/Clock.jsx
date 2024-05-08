@@ -26,10 +26,10 @@ export function Clock() {
 
       <div className="min-w-min-[3rem] border-gray/50 hidden  border p-3 pl-4 text-white xl:block">
         <div className="flex h-[100%] flex-col items-center justify-center gap-2">
-          <span className="font-chakra text-[1.8rem]">
-            2024 <span className="font-clash">March</span>
+          <span className=" text-[1.8rem]">
+            2024 <span className="font-clash">May</span>
           </span>
-          <span className="font-chakra text-primary flex gap-2 text-[2rem] font-bold">
+          <span className=" text-primary flex gap-2 text-[2rem] font-bold">
             28
             <b className="text-[12px]">TH</b>
             29

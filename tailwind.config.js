@@ -7,7 +7,7 @@ export default {
         primary: "#ff8211",
       },
       fontFamily: {
-        fira: ["Chakra Petch", "monospace"],
+        chakra: ["Chakra Petch", "monospace"],
         clash: ["Clash", "sans-serif"],
         akira: ["Akira", "sans-serif"],
       },

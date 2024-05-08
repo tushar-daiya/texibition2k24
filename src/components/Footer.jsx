@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex min-h-[14rem] w-full min-w-[18rem] flex-col items-start justify-center border-b-[1.5px] border-gray-200/40 p-10 lg:w-[22rem] lg:border-b-0 lg:border-r-[1.5px]">
           <p className="font-ibm text-stone-500">Get in Touch</p>
           <Link
-            href="mailto:contact@yukthi.org"
+            to="mailto:techclub@brainwareuniversity.ac.in"
             className=" text-xl font-semibold italic md:text-base"
           >
             techclub@brainwareuniversity.ac.in
@@ -42,20 +42,20 @@ const Footer = () => {
 
         <div className="min-w-[18rem] grow-[1] text-white/70">
           <div className=" flex min-h-[7rem] items-center justify-between border-b-[1.5px] border-gray-200/40 pl-5 pr-4 text-4xl font-bold italic lg:border-t-[1.5px] xl:border-t-0">
-            <Link href="/" className="hover:text-primary">
+            <Link to="/" className="hover:text-primary">
               <ScrambleTextHover text="Texibition" />
             </Link>
           </div>
           <div>
             <div className="flex">
               <Link
-                href="/"
+                to="/"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
                 <AiOutlineGlobal size="3rem" />
               </Link>
               <Link
-                href="/"
+                to="/"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
                 <FaInstagram size="3rem" />

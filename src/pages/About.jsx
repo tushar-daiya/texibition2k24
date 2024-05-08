@@ -16,7 +16,7 @@ const About = () => {
           ?
         </span>
       </div>
-      <p className="font-fira mt-8 text-lg leading-loose md:text-xl">
+      <p className="font-chakra mt-8 text-lg leading-loose md:text-xl">
         <span className="font-bold text-primary">Texibition 2024&nbsp;</span>
         is Brainware University's premier technology festival, a dynamic event
         set to unfold on the 28th and 29th of May, 2024. This fest promises to
@@ -24,13 +24,13 @@ const About = () => {
         bringing together technology enthusiasts from various domains to
         celebrate the spirit of digital advancement and engineering prowess.
       </p>
-      <p className="font-fira mt-5 text-lg leading-loose md:text-xl">
+      <p className="font-chakra mt-5 text-lg leading-loose md:text-xl">
         Texibition 2024 is open to students, professionals, and anyone with a
         passion for technology and gaming. Whether you're a coder, a designer, a
         gamer, or just a tech enthusiast, this festival has something exciting
         for you.
       </p>
-      <p className="font-fira mt-5 text-lg leading-loose md:text-xl">
+      <p className="font-chakra mt-5 text-lg leading-loose md:text-xl">
         Get ready to experience two days of non-stop excitement and competition.
         Register now to be a part of Texibition 2024 and mark your calendars for
         a festival that celebrates the best of technology and creativity! For

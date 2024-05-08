@@ -12,8 +12,36 @@ import Image9 from "/event.webp";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 
 const Events = () => {
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.registerPlugin(useGSAP);
+  useGSAP(() => {
+    gsap.from("#eventButtons", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      scrollTrigger: {
+        trigger: document.getElementById("eventButtons"),
+        start: "top 80%",
+      },
+      ease: "power2.out",
+    });
+    gsap.from("#ghoonies", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      scrollTrigger: {
+        trigger: document.getElementById("ghoonies"),
+        start: "top 50%",
+      },
+      ease: "power2.out",
+    });
+  });
+
   const technicalEvents = [
     {
       image: Image1,
@@ -87,7 +115,7 @@ const Events = () => {
   };
   return (
     <div>
-      <div className="mx-auto flex max-w-[300px] justify-between font-medium xl:mb-20">
+      <div  id="eventButtons" className="mx-auto flex max-w-[300px] justify-between font-medium xl:mb-20">
         <button
           onClick={click1}
           className={`${selected == "btn1" ? "bg-primary text-white" : "bg-white text-black"}  px-5 py-2`}
@@ -103,7 +131,7 @@ const Events = () => {
       </div>
 
       {windowWidth < 1192 ? (
-        <div className="events" id="ghoonies">
+        <div className="events eventDiv" id="ghoonies">
           <div className="screen-main">
             <div className="screen" id="screenn">
               <div className="arrriii">
@@ -125,7 +153,7 @@ const Events = () => {
           </div>
         </div>
       ) : (
-        <div className="events" id="ghoonies">
+        <div className="events mb-20" id="ghoonies">
           <div className="screen-main1">
             <div className="firstcontainer1">
               <div className="screen1" id="screenn">
