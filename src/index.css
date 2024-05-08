@@ -17,13 +17,24 @@ html {
   scroll-behavior: smooth;
 }
 .datebg {
-  clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0% 100%);
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% calc(100% - 30px),
+    calc(100% - 30px) 100%,
+    0% 100%
+  );
 }
 body {
   font-family: "Clash";
   background-color: black;
   color: white;
   overflow-x: hidden;
+  background-image: url("/preview.webp");
+  backdrop-filter: blur(10px);
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 ::-webkit-scrollbar {
   width: 0;

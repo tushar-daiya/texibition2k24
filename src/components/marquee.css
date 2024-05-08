@@ -1,0 +1,108 @@
+.marquee {
+  width: 100%;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+  position: fixed;
+  left: -48%;
+  z-index: 1;
+}
+
+.marquee .text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 3rem;
+  text-indent: 0;
+  animation: marquee 3s linear infinite;
+  font-size: 1.5rem;
+  line-height: 125%;
+  letter-spacing: -0.04;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* Tech Fest Marquee end*/
+
+/* Tech Fest Marquee2 start*/
+.marquee2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  transform: rotate(-3deg);
+}
+
+.marquee2 .text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 3rem;
+  animation: marquee 6s linear infinite;
+  font-size: 4rem;
+  line-height: 125%;
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* Tech Fest Marquee2 end*/
+
+/* Tech Fest Marquee3 start*/
+.marquee3 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: fit-content;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  transform: rotate(-3deg);
+}
+
+.marquee3 .text {
+  position: relative;
+  top: -1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  animation: marquee2 5s linear infinite;
+  font-size: 3rem;
+ /* width: 50%; /* divide the width equally between the two texts */
+}
+
+.textStroke {
+  -webkit-text-stroke: 1px white;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(-100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}

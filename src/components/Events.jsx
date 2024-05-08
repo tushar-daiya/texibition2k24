@@ -45,7 +45,7 @@ const Events = () => {
   const technicalEvents = [
     {
       image: Image1,
-      url: "event/bluster",
+      url: "event/code-golf",
       i: -2,
     },
     {
@@ -74,12 +74,12 @@ const Events = () => {
     {
       image: Image6,
       url: "event/call-of-duty",
-      i: -1,
+      i: -2,
     },
     {
       image: Image7,
       url: "event/pes",
-      i: 0,
+      i: -1,
     },
     {
       image: Image8,
@@ -163,7 +163,7 @@ const Events = () => {
                 {events?.map((image, index) => (
                   <div
                     key={index}
-                    className="posterholder1"
+                    className={`${events.length == 5 ? "posterholder1" : "posterholder2"}`}
                     style={{ "--i": image.i }}
                   >
                     <Link to={image.url}>

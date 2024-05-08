@@ -6,12 +6,9 @@ import RegisterButton from "../components/RegisterButton";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-const Hero = ({ eventRef }) => {
+const Hero = () => {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
-  const handleClick = () => {
-    eventRef.current.scrollIntoView({ behavior: "smooth" });
-  };
   useGSAP(() => {
     gsap.from(".collegeName", {
       duration: 1,
@@ -69,7 +66,7 @@ const Hero = ({ eventRef }) => {
   }, []);
   return (
     <div className="border-b-2 border-solid border-white/10 pb-10">
-      <div className="py-10">
+      <div className=" py-10">
         <h1 className="collegeName text-center text-lg font-medium  tracking-wider md:text-2xl">
           BRAINWARE UNIVERSITY PRESENTS
         </h1>
@@ -87,12 +84,6 @@ const Hero = ({ eventRef }) => {
       <div className="dateTime">
         <Clock />
       </div>
-      {/* <div
-        onClick={handleClick}
-        className="register mx-auto mt-10 w-max text-center"
-      >
-        <RegisterButton />
-      </div> */}
     </div>
   );
 };

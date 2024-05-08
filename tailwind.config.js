@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#ff8211",
+        primary: "#ce9b22",
       },
       fontFamily: {
         chakra: ["Chakra Petch", "monospace"],

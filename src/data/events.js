@@ -1,8 +1,8 @@
 export const events = [
   {
     image: "/event.webp",
-    eventId: "bluster",
-    event_name: "The Bluster",
+    eventId: "code-golf",
+    event_name: "Code Golf",
     event_description:
       "Step up to the challenge in our Competitive Programming Contest! Tackle a series of algorithmic puzzles designed to test your coding skills and problem-solving prowess. Compete against the best, sharpen your abilities, and vie for top honors and prizes. Whether you're a beginner or a seasoned coder, this competition is the perfect arena to prove your mettle! Join us and code your path to victory!",
     rules: [
@@ -19,8 +19,8 @@ export const events = [
     fees: "RS. 100/- per Student",
     coordinators: [
       {
-        name: "Romit Pal",
-        phone: "7044050975",
+        name: "SAURABH KUMAR JHA",
+        phone: "9062600845",
       },
     ],
     url: "https://forms.gle/Cjzt69gjWUxofLYY6",
@@ -53,8 +53,8 @@ export const events = [
     fees: "Rs. 400.00/- per Team",
     coordinators: [
       {
-        name: "Aritri Podder",
-        phone: "9831871391",
+        name: "Romit Pal",
+        phone: "7044050975",
       },
     ],
     url: "https://forms.gle/XZmN17a9W1QN9LACA",
@@ -85,8 +85,8 @@ export const events = [
     fees: "Rs. 100.00/-",
     coordinators: [
       {
-        name: "Arpan Bag",
-        phone: "7478991512",
+        name: "Aritri Podder",
+        phone: "9831871391",
       },
     ],
     url: "https://forms.gle/CHN9TkLdGvucGZ3L6",
@@ -99,24 +99,24 @@ export const events = [
     event_name:
       "Hands on workshop and Hackathon on GenAI within Intel DevCloud",
     event_description:
-      "Unleash your creativity and wit in our Ultimate Meme Making Competition! Whether you're a seasoned meme lord or a fresh face in the meme game, this is your chance to show off your skills. Create hilarious, smart, and share-worthy memes to compete for amazing prizes and the title of Meme Master.",
+      "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     rules: [
-      "A team may contain at most 2 students from the same college.",
-      "Every participating team will have to make two memes on each of the subjects Movies, Gaming, Computer Science and English. Thus every team should make 8 memes in total.",
-      "There will be 10 templates provided by the organisers on which the teams should make their memes. Each meme must be made on a different template. Other templates will not be allowed. Templates will be given at the beginning of the programme.",
-      "Memes must be suitable for all audiences, avoiding explicit language, offensive imagery, and discriminatory content. They should focus on humor without targeting specific individuals or groups for ridicule. Teams not adhering to these guidelines will be disqualified.",
-      "There will be a plagiarism check for all the memes by the organisers.",
-      "One of the participants from each team must be joined in the WhatsApp group for receiving templates and sending the memes.",
-      "Each meme carries 10 points and will be judged based on creativity, humour, and accuracy to the template and the subject. Language of all the memes should be English.",
-      "The organizers reserve the right to disqualify memes deemed inappropriate.",
-      "Participants must bring their own laptop or mobile device.",
-      "No internet connection will be provided from University.",
+      // "A team may contain at most 2 students from the same college.",
+      // "Every participating team will have to make two memes on each of the subjects Movies, Gaming, Computer Science and English. Thus every team should make 8 memes in total.",
+      // "There will be 10 templates provided by the organisers on which the teams should make their memes. Each meme must be made on a different template. Other templates will not be allowed. Templates will be given at the beginning of the programme.",
+      // "Memes must be suitable for all audiences, avoiding explicit language, offensive imagery, and discriminatory content. They should focus on humor without targeting specific individuals or groups for ridicule. Teams not adhering to these guidelines will be disqualified.",
+      // "There will be a plagiarism check for all the memes by the organisers.",
+      // "One of the participants from each team must be joined in the WhatsApp group for receiving templates and sending the memes.",
+      // "Each meme carries 10 points and will be judged based on creativity, humour, and accuracy to the template and the subject. Language of all the memes should be English.",
+      // "The organizers reserve the right to disqualify memes deemed inappropriate.",
+      // "Participants must bring their own laptop or mobile device.",
+      // "No internet connection will be provided from University.",
     ],
     fees: "Free",
     coordinators: [
       {
-        name: "Debarun Joardar",
-        phone: "9007883555",
+        name: "NA",
+        phone: "000000000",
       },
     ],
   },
@@ -143,8 +143,8 @@ export const events = [
     fees: "Rs. 50 per student",
     coordinators: [
       {
-        name: "Jitu PRADHAN ",
-        phone: "7364859227",
+        name: "Arpan Bag",
+        phone: "7478991512",
       },
     ],
   },
@@ -171,8 +171,12 @@ export const events = [
     fees: "200 per team",
     coordinators: [
       {
-        name: "SAURABH KUMAR JHA",
-        phone: "9062600845",
+        name: "Debarun Joardar",
+        phone: "9007883555",
+      },
+      {
+        name: "Jitu PRADHAN ",
+        phone: "7364859227",
       },
     ],
   },
@@ -201,8 +205,12 @@ export const events = [
     fees: "Per Team RS. 50/-",
     coordinators: [
       {
-        name: "SAURABH KUMAR JHA",
-        phone: "9062600845",
+        name: "Debarun Joardar",
+        phone: "9007883555",
+      },
+      {
+        name: "Jitu PRADHAN ",
+        phone: "7364859227",
       },
     ],
   },
@@ -230,8 +238,12 @@ export const events = [
     fees: "Per Team Rs. 200/-",
     coordinators: [
       {
-        name: "SAURABH KUMAR JHA",
-        phone: "9062600845",
+        name: "Debarun Joardar",
+        phone: "9007883555",
+      },
+      {
+        name: "Jitu PRADHAN ",
+        phone: "7364859227",
       },
     ],
   },
@@ -261,8 +273,12 @@ export const events = [
     fees: "Per Team Rs. 200/-",
     coordinators: [
       {
-        name: "SAURABH KUMAR JHA",
-        phone: "9062600845",
+        name: "Debarun Joardar",
+        phone: "9007883555",
+      },
+      {
+        name: "Jitu PRADHAN ",
+        phone: "7364859227",
       },
     ],
   },
