@@ -96,7 +96,7 @@ const Hero = () => {
               <img
                 src="/iic_logo.webp"
                 alt="IIC Logo"
-                className="w-24 md:w-28"
+                className="w-28 md:w-32"
               />
             </div>
           </div>
