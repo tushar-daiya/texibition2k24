@@ -10,7 +10,7 @@ export function Clock() {
 
         <div className="relative bottom-0 text-[.8rem] -tracking-tight md:text-lg">
           <span className="text-primary font-bold absolute left-[-9.5rem] md:left-[-13.5rem]">
-            DAY
+            DAYS
           </span>
           <span className="text-primary font-bold absolute left-[-4.5rem] md:left-[-7.5rem]">
             HOURS

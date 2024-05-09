@@ -83,7 +83,7 @@ const Hero = () => {
           alt=""
         />
         <div className="mx-auto organizers mt-5 w-max">
-          <p className="text-center mb-5 font-bold text-3xl">Organised By</p>
+          <p className="text-center mb-5 font-medium text-2xl">Organised By</p>
           <div className="flex gap-5 ">
             <div>
               <img
