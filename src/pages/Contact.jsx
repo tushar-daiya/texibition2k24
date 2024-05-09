@@ -7,7 +7,7 @@ const Contact = () => {
   const head = persons.slice(0, 3);
   const head2 = persons.slice(3, 7);
   const head3 = persons.slice(7, 10);
-  const head4 = persons.slice(10, 16);
+  const head4 = persons.slice(10, 18);
   console.log(head, head2, head3, head4);
   return (
     <div className="mx-5 max-w-screen-xl md:mx-auto">

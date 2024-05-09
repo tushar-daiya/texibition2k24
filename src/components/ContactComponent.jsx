@@ -38,6 +38,14 @@ const ContactComponent = ({ person }) => {
             </span>
           </p>
         )}
+        {person.whatsapp && (
+          <p className="text-center font-clash text-lg">
+            Phone :{" "}
+            <span>
+              <Link to={`https://api.whatsapp.com/send?phone=91${person.whatsapp}`}>{person.whatsapp}</Link>
+            </span>
+          </p>
+        )}
       </div>
     </div>
   );

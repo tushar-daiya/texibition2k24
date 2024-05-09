@@ -53,8 +53,8 @@ export const events = [
     fees: "Rs. 400.00/- per Team",
     coordinators: [
       {
-        name: "Romit Pal",
-        phone: "7044050975",
+        name: "Akash Pradhan",
+        phone: "9832277149",
       },
     ],
     url: "https://forms.gle/XZmN17a9W1QN9LACA",
@@ -96,25 +96,25 @@ export const events = [
     eventType: "Individual",
     event_name:
       "Hands on workshop and Hackathon on GenAI within Intel DevCloud",
-    event_description:
-      "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    rules: [
-      // "A team may contain at most 2 students from the same college.",
-      // "Every participating team will have to make two memes on each of the subjects Movies, Gaming, Computer Science and English. Thus every team should make 8 memes in total.",
-      // "There will be 10 templates provided by the organisers on which the teams should make their memes. Each meme must be made on a different template. Other templates will not be allowed. Templates will be given at the beginning of the programme.",
-      // "Memes must be suitable for all audiences, avoiding explicit language, offensive imagery, and discriminatory content. They should focus on humor without targeting specific individuals or groups for ridicule. Teams not adhering to these guidelines will be disqualified.",
-      // "There will be a plagiarism check for all the memes by the organisers.",
-      // "One of the participants from each team must be joined in the WhatsApp group for receiving templates and sending the memes.",
-      // "Each meme carries 10 points and will be judged based on creativity, humour, and accuracy to the template and the subject. Language of all the memes should be English.",
-      // "The organizers reserve the right to disqualify memes deemed inappropriate.",
-      // "Participants must bring their own laptop or mobile device.",
-      // "No internet connection will be provided from University.",
-    ],
+    // event_description:
+    //   "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    // rules: [
+    //   // "A team may contain at most 2 students from the same college.",
+    //   // "Every participating team will have to make two memes on each of the subjects Movies, Gaming, Computer Science and English. Thus every team should make 8 memes in total.",
+    //   // "There will be 10 templates provided by the organisers on which the teams should make their memes. Each meme must be made on a different template. Other templates will not be allowed. Templates will be given at the beginning of the programme.",
+    //   // "Memes must be suitable for all audiences, avoiding explicit language, offensive imagery, and discriminatory content. They should focus on humor without targeting specific individuals or groups for ridicule. Teams not adhering to these guidelines will be disqualified.",
+    //   // "There will be a plagiarism check for all the memes by the organisers.",
+    //   // "One of the participants from each team must be joined in the WhatsApp group for receiving templates and sending the memes.",
+    //   // "Each meme carries 10 points and will be judged based on creativity, humour, and accuracy to the template and the subject. Language of all the memes should be English.",
+    //   // "The organizers reserve the right to disqualify memes deemed inappropriate.",
+    //   // "Participants must bring their own laptop or mobile device.",
+    //   // "No internet connection will be provided from University.",
+    // ],
     fees: "Free",
     coordinators: [
       {
-        name: "NA",
-        phone: "000000000",
+        name: "Sneha Singh",
+        phone: "8797401455",
       },
     ],
   },
@@ -170,6 +170,10 @@ export const events = [
     fees: "200 per team",
     coordinators: [
       {
+        name: "Romit Pal",
+        phone: "7044050975",
+      },
+      {
         name: "Debarun Joardar",
         phone: "9007883555",
       },
@@ -205,6 +209,10 @@ export const events = [
     fees: "Per Team RS. 50/-",
     coordinators: [
       {
+        name: "Romit Pal",
+        phone: "7044050975",
+      },
+      {
         name: "Debarun Joardar",
         phone: "9007883555",
       },
@@ -238,6 +246,10 @@ export const events = [
     ],
     fees: "Per Team Rs. 200/-",
     coordinators: [
+      {
+        name: "Romit Pal",
+        phone: "7044050975",
+      },
       {
         name: "Debarun Joardar",
         phone: "9007883555",
@@ -273,6 +285,10 @@ export const events = [
     ],
     fees: "Per Team Rs. 200/-",
     coordinators: [
+      {
+        name: "Romit Pal",
+        phone: "7044050975",
+      },
       {
         name: "Debarun Joardar",
         phone: "9007883555",
