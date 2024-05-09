@@ -1,9 +1,15 @@
 import React from "react";
 import { FiArrowDownRight } from "react-icons/fi";
-import { FaInstagram, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaMapMarkerAlt,
+  FaYoutube,
+} from "react-icons/fa";
 import { AiOutlineGlobal } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ScrambleTextHover from "./ScrambleTextHover";
+import { FaSquareXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer className="mt-10 flex h-fit flex-col flex-wrap overflow-hidden border-t-[1.5px] border-gray-200/40 px-0 text-white">
@@ -49,19 +55,41 @@ const Footer = () => {
           <div>
             <div className="flex">
               <Link
-                to="/"
-                className="social-links flex min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
+                target="_blank"
+                to="https://www.instagram.com/brainware_university_kolkata/?hl=en"
+                className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
-                <AiOutlineGlobal
+                <FaInstagram
                   className="transition-all hover:scale-110"
                   size="3rem"
                 />
               </Link>
               <Link
-                to="/"
+                target="_blank"
+                to="https://www.youtube.com/channel/UCcx0a7Ab_FMzscRA8AignVQ"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
-                <FaInstagram
+                <FaYoutube
+                  className="transition-all hover:scale-110"
+                  size="3rem"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/school/brainwareuniversity/?originalSubdomain=in"
+                className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
+              >
+                <FaLinkedin
+                  className="transition-all hover:scale-110"
+                  size="3rem"
+                />
+              </Link>
+              <Link
+                target="_blank"
+                to="https://twitter.com/BrainwareTweet"
+                className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
+              >
+                <FaSquareXTwitter
                   className="transition-all hover:scale-110"
                   size="3rem"
                 />
