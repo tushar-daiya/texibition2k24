@@ -1,6 +1,6 @@
 export const events = [
   {
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "code-golf",
     event_name: "Code Golf",
     event_description:
@@ -26,7 +26,7 @@ export const events = [
     url: "https://forms.gle/Cjzt69gjWUxofLYY6",
   },
   {
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "the-architect",
     event_name: "The Architect (Prototype Competition)",
     eventType: "Team(5 members max)",
@@ -60,7 +60,7 @@ export const events = [
     url: "https://forms.gle/XZmN17a9W1QN9LACA",
   },
   {
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "pixel-pulse",
     event_name: "PixelPulse",
     eventType: "Individual",
@@ -93,7 +93,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/UgYa7i3ZQ8AWB3yU9",
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "intel-workshop",
     eventType: "Individual",
     event_name:
@@ -122,7 +122,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/3ufFZXgeUrbNf4Yd6",
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "the-prompters",
     eventType: "Team(2 members max)",
     event_name: "The Prompters",
@@ -149,7 +149,7 @@ export const events = [
     ],
   },
   {
-    image: "/event.webp",
+    image: "/posters/event.webp",
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
     eventId: "call-of-duty",
     event_name: "Call of Duty",
@@ -182,7 +182,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "pes",
     event_name: "PES",
     eventType: "Individual",
@@ -216,7 +216,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "bgmi",
     eventType: "Team(4 members max)",
     event_name: "BattleGround Mobile (BGMI)",
@@ -249,7 +249,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/event.webp",
+    image: "/posters/event.webp",
     eventId: "free-fire",
     eventType: "Team(4 members max)",
     event_name: "Free Fire",

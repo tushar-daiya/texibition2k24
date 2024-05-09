@@ -4,9 +4,9 @@ import ScrambleTextHover from "./ScrambleTextHover";
 import { Link } from "react-router-dom";
 const ContactComponent = ({ person }) => {
   return (
-    <div className="rounded-lg border border-solid border-white hover:shadow-lg hover:shadow-primary">
+    <div className="rounded-lg border border-solid w-full aspect-square border-white hover:shadow-lg hover:shadow-primary">
       <div
-        className="item group relative h-[350px] w-[350px] cursor-pointer overflow-hidden border border-solid border-white border-opacity-10"
+        className="item group relative w-full h-full cursor-pointer overflow-hidden border border-solid border-white border-opacity-10"
         id={person.id}
       >
         <div className="item-img h-full w-full">
