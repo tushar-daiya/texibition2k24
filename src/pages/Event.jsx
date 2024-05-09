@@ -45,7 +45,7 @@ const Event = () => {
                 </p>
               )}
 
-              <div className="font-xl mt-5 font-clash text-xl font-medium">
+              <div className="font-xl mt-5 font-clash text-lg font-medium">
                 <p>
                   Reg Fees: <span className="ml-5">{event.fees}</span>
                 </p>
@@ -54,9 +54,9 @@ const Event = () => {
                 </p>
               </div>
               <div className="mt-7 *:font-medium">
-                <h3 className="mb-3 text-3xl">Coordinator Details</h3>
+                <h3 className="mb-3 text-2xl">Coordinator Details</h3>
                 {event.coordinators.map((coordinator) => (
-                  <p className="mb-2 text-xl">
+                  <p className="mb-2 text-lg">
                     {coordinator.name}:{" "}
                     <Link className="ml-5" to={`tel:${coordinator.phone}`}>
                       {coordinator.phone}
