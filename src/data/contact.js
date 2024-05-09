@@ -5,6 +5,7 @@ export const persons = [
     department: "CSE",
     post: "Chairman",
     image: "/person/dravijit.webp",
+    faculty_post: "Associate Professor",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const persons = [
     department: "CSS",
     post: "Convener",
     image: "/person/parthapratim.webp",
+    faculty_post: "Assistant Professor",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const persons = [
     department: "ECE",
     post: "Treasurer",
     image: "/person/arighnabasak.webp",
+    faculty_post: "Assistant Professor",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const persons = [
     department: "Physics",
     post: "Faculty Coordinator",
     image: "/person/mithunmaity.webp",
+    faculty_post: "Assistant Professor",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const persons = [
     department: "CST",
     post: "Faculty Coordinator",
     image: "/person/soumikpyne.webp",
+    faculty_post: "Assistant Professor",
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const persons = [
     department: "Allied Health Sciences",
     post: "Faculty Coordinator",
     image: "/person/atribanerjee.webp",
+    faculty_post: "Tutor",
   },
   {
     id: 7,
@@ -47,6 +53,15 @@ export const persons = [
     department: "ECE",
     post: "Faculty Coordinator",
     image: "/person/sudiptachaterjee.webp",
+    faculty_post: "Assistant Professor",
+  },
+  {
+    id: 19,
+    name: "Mrs. Ratnabali Pal",
+    department: "CSS",
+    post: "Faculty Coordinator",
+    image: "/person/ratnabalipal.webp",
+    faculty_post: "Assistant Professor",
   },
   {
     id: 8,

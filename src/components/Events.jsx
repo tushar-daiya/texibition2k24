@@ -1,6 +1,6 @@
 import React from "react";
 import "./ghoonies.css";
-import CodeGolf from "/posters/code_golf.webp";
+import Bluster from "/posters/bluster.webp";
 import Intel from "/posters/intel.webp";
 import PixelPulse from "/posters/pixel_pulse.webp";
 import Prompters from "/posters/prompters.webp";
@@ -44,8 +44,8 @@ const Events = () => {
 
   const technicalEvents = [
     {
-      image: CodeGolf,
-      url: "event/code-golf",
+      image: Bluster,
+      url: "event/bluster",
       i: -2,
     },
     {

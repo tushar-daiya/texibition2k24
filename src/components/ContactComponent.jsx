@@ -4,9 +4,9 @@ import ScrambleTextHover from "./ScrambleTextHover";
 import { Link } from "react-router-dom";
 const ContactComponent = ({ person }) => {
   return (
-    <div className="rounded-lg border border-solid w-full aspect-square border-white hover:shadow-lg hover:shadow-primary">
+    <div className="aspect-square w-full rounded-lg border border-solid border-white hover:shadow-lg hover:shadow-primary">
       <div
-        className="item group relative w-full h-full cursor-pointer overflow-hidden border border-solid border-white border-opacity-10"
+        className="item group relative h-full w-full cursor-pointer overflow-hidden border border-solid border-white border-opacity-10"
         id={person.id}
       >
         <div className="item-img h-full w-full">
@@ -30,6 +30,11 @@ const ContactComponent = ({ person }) => {
             <span className="break-words">{person.department}</span>
           </p>
         )}
+        {person.faculty_post && (
+          <p className="break-words text-center font-clash text-lg ">
+            {person.faculty_post}
+          </p>
+        )}
         {person.phone && (
           <p className="text-center font-clash text-lg">
             Phone :{" "}
@@ -42,7 +47,11 @@ const ContactComponent = ({ person }) => {
           <p className="text-center font-clash text-lg">
             Phone :{" "}
             <span>
-              <Link to={`https://api.whatsapp.com/send?phone=91${person.whatsapp}`}>{person.whatsapp}</Link>
+              <Link
+                to={`https://api.whatsapp.com/send?phone=91${person.whatsapp}`}
+              >
+                {person.whatsapp}
+              </Link>
             </span>
           </p>
         )}
