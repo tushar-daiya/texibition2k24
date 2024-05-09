@@ -116,8 +116,8 @@ export const events = [
     fees: "Free",
     faculty_coordinator: [
       {
-        name: "Mr. Ratnabali Pal",
-        department: "Computational Sciences",
+        name: "Mrs. Ratnabali Pal",
+        department: "Department of Computational Sciences",
       },
     ],
     coordinators: [
