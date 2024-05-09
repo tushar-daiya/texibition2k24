@@ -7,39 +7,12 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
-import { useState } from "react";
-import { useRef } from "react";
-import { useEffect } from "react";
-import WAVES from "vanta/dist/vanta.waves.min";
-import * as THREE from "three";
+
 
 const App = () => {
-  const [vantaEffect, setVantaEffect] = useState(0);
-  const vantaRef = useRef(null);
-
-  // useEffect(() => {
-  //   if (!vantaEffect) {
-  //     setVantaEffect(
-  //       WAVES({
-  //         el: vantaRef.current,
-  //         THREE: THREE,
-  //         // mouseControls: true,
-  //         // touchControls: true,
-  //         gyroControls: false,
-  //         minHeight: 200.0,
-  //         minWidth: 200.0,
-  //         scale: 1.0,
-  //         scaleMobile: 1.0,
-  //         color: 0x20304,
-  //       }),
-  //     );
-  //   }
-  //   return () => {
-  //     if (vantaEffect) vantaEffect.destroy();
-  //   };
-  // }, [vantaEffect]);
+  
   return (
-    <div ref={vantaRef}>
+    <div>
       <ScrollToTop />
       <Navbar />
       <div className="pt-20">

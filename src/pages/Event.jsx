@@ -46,15 +46,35 @@ const Event = () => {
               )}
 
               <div className="font-xl mt-5 font-clash text-lg font-medium">
-                <p>
-                  Reg Fees: <span className="ml-5">{event.fees}</span>
+                <p className="text-primary">
+                  Reg Fees:{" "}
+                  <span className="ml-5 text-white">{event.fees}</span>
                 </p>
-                <p>
-                  Event Type: <span className="ml-5">{event.eventType}</span>
+                <p className="text-primary">
+                  Event Type:{" "}
+                  <span className="ml-5 text-white">{event.eventType}</span>
                 </p>
               </div>
+              {event.faculty_coordinator && (
+                <div className="mt-7 *:font-medium">
+                  <h3 className="mb-3 text-2xl text-primary">
+                    Faculty Coordinators
+                  </h3>
+                  {event.faculty_coordinator.map((coordinator) => (
+                    <p className="mb-2 text-lg">
+                      {coordinator.name}
+                      {" ("}
+                      {coordinator.department && (
+                        <span className="">{coordinator.department})</span>
+                      )}
+                    </p>
+                  ))}
+                </div>
+              )}
               <div className="mt-7 *:font-medium">
-                <h3 className="mb-3 text-2xl">Coordinator Details</h3>
+                <h3 className="mb-3 text-2xl text-primary">
+                  Student Coordinators
+                </h3>
                 {event.coordinators.map((coordinator) => (
                   <p className="mb-2 text-lg">
                     {coordinator.name}:{" "}

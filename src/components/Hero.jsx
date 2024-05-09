@@ -27,6 +27,13 @@ const Hero = () => {
       duration: 1,
       ease: "power2.out",
     });
+    gsap.from(".organizers", {
+      duration: 1,
+      opacity: 0,
+      y: 100,
+      delay: 0.5,
+      ease: "power2.out",
+    });
     gsap.from(".date", {
       duration: 1,
       opacity: 0,
@@ -75,6 +82,25 @@ const Hero = () => {
           className="logo mx-auto max-w-[80%] md:w-[50%]"
           alt=""
         />
+        <div className="mx-auto organizers mt-5 w-max">
+          <p className="text-center mb-5 font-bold text-3xl">Organised By</p>
+          <div className="flex gap-5 ">
+            <div>
+              <img
+                src="/techclub_logo.webp"
+                alt="Tech Club Logo"
+                className="w-24 md:w-28"
+              />
+            </div>
+            <div className="flex items-center">
+              <img
+                src="/iic_logo.webp"
+                alt="IIC Logo"
+                className="w-24 md:w-28"
+              />
+            </div>
+          </div>
+        </div>
       </div>
       {windowSize < 1280 && (
         <div className="date mb-10">

@@ -99,7 +99,7 @@ export const persons = [
   },
   {
     id: 15,
-    name: "Jitu PRADHAN ",
+    name: "Jitu Pradhan ",
     phone: "7364859227",
     post: "Coordinator",
     image: "/person/jitu.webp",

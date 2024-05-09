@@ -17,9 +17,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.0",
-    "three": "0.121.0",
-    "use-scramble": "^2.2.15",
-    "vanta": "^0.5.24"
+    "use-scramble": "^2.2.15"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

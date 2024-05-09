@@ -1,14 +1,14 @@
 import React from "react";
 import "./ghoonies.css";
-import Image1 from "/posters/event.webp";
-import Image2 from "/posters/event.webp";
-import Image3 from "/posters/event.webp";
-import Image4 from "/posters/event.webp";
-import Image5 from "/posters/event.webp";
-import Image6 from "/posters/event.webp";
-import Image7 from "/posters/event.webp";
-import Image8 from "/posters/event.webp";
-import Image9 from "/posters/event.webp";
+import CodeGolf from "/posters/code_golf.webp";
+import Intel from "/posters/intel.webp";
+import PixelPulse from "/posters/pixel_pulse.webp";
+import Prompters from "/posters/prompters.webp";
+import Architect from "/posters/architect.webp";
+import Cod from "/posters/cod.webp";
+import Bgmi from "/posters/bgmi.webp";
+import Free_Fire from "/posters/free_fire.webp";
+import Pes from "/posters/pes.webp";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -44,52 +44,52 @@ const Events = () => {
 
   const technicalEvents = [
     {
-      image: Image1,
+      image: CodeGolf,
       url: "event/code-golf",
       i: -2,
     },
     {
-      image: Image2,
+      image: Architect,
       url: "event/the-architect",
       i: -1,
     },
     {
-      image: Image3,
+      image: PixelPulse,
       url: "event/pixel-pulse",
-      i: 0,
-    },
-    {
-      image: Image4,
-      url: "event/intel-workshop",
       i: 1,
     },
     {
-      image: Image5,
+      image: Prompters,
       url: "event/the-prompters",
       i: 2,
+    },
+    {
+      image: Intel,
+      url: "event/intel-workshop",
+      i: 0,
     },
   ];
 
   const gamingEvents = [
     {
-      image: Image6,
+      image: Cod,
       url: "event/call-of-duty",
       i: -2,
     },
     {
-      image: Image7,
-      url: "event/pes",
-      i: -1,
-    },
-    {
-      image: Image8,
+      image: Bgmi,
       url: "event/bgmi",
       i: 1,
     },
     {
-      image: Image9,
+      image: Free_Fire,
       url: "event/free-fire",
       i: 2,
+    },
+    {
+      image: Pes,
+      url: "event/pes",
+      i: -1,
     },
   ];
 

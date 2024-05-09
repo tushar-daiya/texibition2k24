@@ -1,6 +1,6 @@
 export const events = [
   {
-    image: "/posters/event.webp",
+    image: "/posters/code_golf.webp",
     eventId: "code-golf",
     event_name: "Code Golf",
     event_description:
@@ -19,14 +19,14 @@ export const events = [
     fees: "RS. 100/- per Student",
     coordinators: [
       {
-        name: "SAURABH KUMAR JHA",
+        name: "Saurabh Kumar Jha",
         phone: "9062600845",
       },
     ],
     url: "https://forms.gle/Cjzt69gjWUxofLYY6",
   },
   {
-    image: "/posters/event.webp",
+    image: "/posters/architect.webp",
     eventId: "the-architect",
     event_name: "The Architect (Prototype Competition)",
     eventType: "Team(5 members max)",
@@ -60,7 +60,7 @@ export const events = [
     url: "https://forms.gle/XZmN17a9W1QN9LACA",
   },
   {
-    image: "/posters/event.webp",
+    image: "/posters/pixel_pulse.webp",
     eventId: "pixel-pulse",
     event_name: "PixelPulse",
     eventType: "Individual",
@@ -91,26 +91,32 @@ export const events = [
   },
   {
     url: "https://forms.gle/UgYa7i3ZQ8AWB3yU9",
-    image: "/posters/event.webp",
+    image: "/posters/intel.webp",
     eventId: "intel-workshop",
     eventType: "Individual",
     event_name:
+      "Intel DevCloud",
+    event_description:
       "Hands on workshop and Hackathon on GenAI within Intel DevCloud",
-    // event_description:
-    //   "lorem  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    // rules: [
-    //   // "A team may contain at most 2 students from the same college.",
-    //   // "Every participating team will have to make two memes on each of the subjects Movies, Gaming, Computer Science and English. Thus every team should make 8 memes in total.",
-    //   // "There will be 10 templates provided by the organisers on which the teams should make their memes. Each meme must be made on a different template. Other templates will not be allowed. Templates will be given at the beginning of the programme.",
-    //   // "Memes must be suitable for all audiences, avoiding explicit language, offensive imagery, and discriminatory content. They should focus on humor without targeting specific individuals or groups for ridicule. Teams not adhering to these guidelines will be disqualified.",
-    //   // "There will be a plagiarism check for all the memes by the organisers.",
-    //   // "One of the participants from each team must be joined in the WhatsApp group for receiving templates and sending the memes.",
-    //   // "Each meme carries 10 points and will be judged based on creativity, humour, and accuracy to the template and the subject. Language of all the memes should be English.",
-    //   // "The organizers reserve the right to disqualify memes deemed inappropriate.",
-    //   // "Participants must bring their own laptop or mobile device.",
-    //   // "No internet connection will be provided from University.",
-    // ],
+    rules: [
+      "Participants must be students currently enrolled in an accredited college or university in India.",
+      "Teams must have a minimum of 1 and a maximum of 2 members.",
+      "Each team should fill up this Google form after registration.",
+      "Participants must adhere to a code of conduct that prohibits harassment, discrimination, and disruptive behavior.",
+      "All participants retain ownership of their original ideas and code. However, by participating in the hackathon, participants grant the organizers the right to use their submissions for promotional and educational purposes.",
+      "Participants must use only legally obtained software, tools, and technologies during the event. Ethical coding practices and compliance with copyright policies are expected.",
+      "All teams must present their final product to a panel of judges on the final day of the event.",
+      "Projects will be judged based on criteria such as originality, feasibility, and impact. Judges' decisions are final.",
+      "Organizers reserve the right to disqualify any team or participant for any reason, including but not limited to violation of these rules, or any other misconduct or unsportsmanlike behavior.",
+      "Prizes up to 11K will be awarded to the top teams.",
+    ],
     fees: "Free",
+    faculty_coordinator: [
+      {
+        name: "Mr. Ratnabali Pal",
+        department: "Computational Sciences",
+      },
+    ],
     coordinators: [
       {
         name: "Sneha Singh",
@@ -120,7 +126,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/3ufFZXgeUrbNf4Yd6",
-    image: "/posters/event.webp",
+    image: "/posters/prompters.webp",
     eventId: "the-prompters",
     eventType: "Team(2 members max)",
     event_name: "The Prompters",
@@ -147,7 +153,7 @@ export const events = [
     ],
   },
   {
-    image: "/posters/event.webp",
+    image: "/posters/cod.webp",
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
     eventId: "call-of-duty",
     event_name: "Call of Duty",
@@ -178,14 +184,14 @@ export const events = [
         phone: "9007883555",
       },
       {
-        name: "Jitu PRADHAN ",
+        name: "Jitu Pradhan ",
         phone: "7364859227",
       },
     ],
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/posters/event.webp",
+    image: "/posters/pes.webp",
     eventId: "pes",
     event_name: "PES",
     eventType: "Individual",
@@ -217,14 +223,14 @@ export const events = [
         phone: "9007883555",
       },
       {
-        name: "Jitu PRADHAN ",
+        name: "Jitu Pradhan ",
         phone: "7364859227",
       },
     ],
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/posters/event.webp",
+    image: "/posters/bgmi.webp",
     eventId: "bgmi",
     eventType: "Team(4 members max)",
     event_name: "BattleGround Mobile (BGMI)",
@@ -255,14 +261,14 @@ export const events = [
         phone: "9007883555",
       },
       {
-        name: "Jitu PRADHAN ",
+        name: "Jitu Pradhan ",
         phone: "7364859227",
       },
     ],
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    image: "/posters/event.webp",
+    image: "/posters/free_fire.webp",
     eventId: "free-fire",
     eventType: "Team(4 members max)",
     event_name: "Free Fire",
@@ -294,7 +300,7 @@ export const events = [
         phone: "9007883555",
       },
       {
-        name: "Jitu PRADHAN ",
+        name: "Jitu Pradhan ",
         phone: "7364859227",
       },
     ],
