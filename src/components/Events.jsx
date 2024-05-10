@@ -72,25 +72,27 @@ const Events = () => {
 
   const gamingEvents = [
     {
-      image: Cod,
-      url: "event/call-of-duty",
-      i: -2,
-    },
-    {
       image: Bgmi,
       url: "event/bgmi",
       i: 1,
     },
+    {
+      image: Pes,
+      url: "event/pes",
+      i: -2,
+    },
+    
     {
       image: Free_Fire,
       url: "event/free-fire",
       i: 2,
     },
     {
-      image: Pes,
-      url: "event/pes",
+      image: Cod,
+      url: "event/call-of-duty",
       i: -1,
     },
+    
   ];
 
   const [selected, setSelected] = useState("btn1");
