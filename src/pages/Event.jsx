@@ -57,9 +57,9 @@ const Event = () => {
               </div>
               {event.faculty_coordinator && (
                 <div className="mt-7 *:font-medium">
-                  <h3 className="mb-3 text-2xl text-primary">
+                  <p className="mb-3 text-2xl text-primary">
                     Faculty Coordinators
-                  </h3>
+                  </p>
                   {event.faculty_coordinator.map((coordinator) => (
                     <p className="mb-2 text-lg">
                       {coordinator.name}
@@ -72,9 +72,9 @@ const Event = () => {
                 </div>
               )}
               <div className="mt-7 *:font-medium">
-                <h3 className="mb-3 text-2xl text-primary">
+                <p className="mb-3 text-2xl text-primary">
                   Student Coordinators
-                </h3>
+                </p>
                 {event.coordinators.map((coordinator) => (
                   <p className="mb-2 text-lg">
                     {coordinator.name}:{" "}
@@ -95,7 +95,7 @@ const Event = () => {
         {event.rules && (
           <div className="mt-10">
             <div>
-              <h3 className="mt-5 text-center text-3xl font-bold">Rules</h3>
+              <p className="mt-5 text-center text-3xl font-bold">Rules</p>
               <ul className="ml-5 list-disc *:mt-3 *:font-chakra *:text-lg marker:text-primary md:*:text-xl">
                 {event.rules.map((rule) => (
                   <li>{rule}</li>

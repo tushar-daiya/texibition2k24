@@ -8,40 +8,23 @@ export default function Marquee() {
       <div className="marquee2 font-clash tracking-widest text-primary/70">
         {Array.from({ length: 3 }).map((_, index) => {
           return (
-            <h4 key={index} className="text font-black">
+            <p key={index} className="text font-black">
               DESIGN.BUILD.GROW
-            </h4>
+            </p>
           );
         })}
       </div>
       <div className="marquee3 font-clash tracking-widest textStroke text-transparent">
         {Array.from({ length: 4 }).map((_, index) => {
           return (
-            <h4 key={index} className="text textStroke text-primary font-black text-transparent">
+            <p key={index} className="text textStroke text-primary font-black text-transparent">
               Brainware University
-            </h4>
+            </p>
           );
         })}
       </div>
 
-      {/* <div className="marquee3 font-chakra text-main_primary/50  tracking-widest">
-        {Array.from({ length: 5 }).map((_, index) => {
-          return (
-            <>
-              <h1
-                key={index}
-                className="text textStroke text-primary font-black text-transparent"
-              >
-                {shortText}
-                {String.fromCharCode(160).repeat(
-                  longText.length - shortText.length,
-                )}
-              </h1>
-              <h1 className="text font-black text-white/60  ">{longText}</h1>
-            </>
-          );
-        })}
-      </div> */}
+      
     </section>
   );
 }
