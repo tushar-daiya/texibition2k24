@@ -8,7 +8,6 @@ const Contact = () => {
   const head2 = persons.slice(3, 8);
   const head3 = persons.slice(8, 11);
   const head4 = persons.slice(11, 19);
-  console.log(head, head2, head3, head4);
   return (
     <div className="mx-5 max-w-screen-xl md:mx-auto">
       <Heading text={"Contact Us"} />

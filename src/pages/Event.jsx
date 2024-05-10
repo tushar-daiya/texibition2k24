@@ -26,7 +26,6 @@ const Event = () => {
       ease: "power2.out",
     });
   });
-  console.log(event);
   if (event) {
     return (
       <div className="mx-5 max-w-screen-xl md:mx-auto">
