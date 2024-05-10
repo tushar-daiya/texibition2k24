@@ -32,6 +32,7 @@ const Event = () => {
         <Heading text={event.event_name} />
         <div className="mt-5 flex flex-col overflow-hidden rounded-2xl border border-solid border-white bg-white bg-opacity-10 backdrop-blur-md md:flex-row">
           <img
+            loading="lazy"
             src={event.image}
             alt="Event"
             className="poster sticky w-full md:w-1/3"

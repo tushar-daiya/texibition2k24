@@ -11,6 +11,7 @@ const ContactComponent = ({ person }) => {
       >
         <div className="item-img h-full w-full">
           <img
+            loading="lazy"
             src={person.image}
             className="h-full w-full scale-100 object-cover brightness-100 grayscale-0 sepia-0  transition-all group-hover:scale-110"
             alt=""
