@@ -26,8 +26,8 @@ const GeneralInstruction = ({ onClick, eventUrl }) => {
     "Interactive price money is also given to the winner of the competition.",
     "All participants will get E-Certificate.",
     "Multiple submission of the same group from different emails may lead to cancellation of the team.",
-    "If you are participating in Legends(Gaming) then you can only participate in any one from the following(The Bluster, The Prompters, Pixel Pulse , The Architect).",
-    "If you are participating in Intel  DevCloud then you can only participate in the following (The Bluster, The Architect)",
+    "If a student is participating in Legends(Gaming) then he/she can only participate in any one from the following(The Bluster, The Prompters, Pixel Pulse , The Architect).",
+    "If a student is participating in Intel DevCloud then he/she can only participate in the following (The Bluster, The Architect)",
   ];
   return (
     <>

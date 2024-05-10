@@ -48,6 +48,13 @@ const Hero = () => {
       y: 100,
       ease: "power2.out",
     });
+    gsap.from(".registrationEnd", {
+      duration: 1,
+      opacity: 0,
+      delay: 1.5,
+      x: -100,
+      ease: "power2.out",
+    });
     gsap.from(".register", {
       duration: 1,
       opacity: 0,
@@ -82,8 +89,8 @@ const Hero = () => {
           className="logo mx-auto max-w-[80%] md:w-[50%]"
           alt=""
         />
-        <div className="mx-auto organizers mt-5 w-max">
-          <p className="text-center mb-5 font-medium text-xl">Organised By</p>
+        <div className="organizers mx-auto mt-5 w-max">
+          <p className="mb-5 text-center text-xl font-medium">Organised By</p>
           <div className="flex gap-5 ">
             <div>
               <img
@@ -107,6 +114,13 @@ const Hero = () => {
           <Date />
         </div>
       )}
+      <div className="registrationEnd mx-auto w-max">
+        <p className="mb-5 text-center text-2xl font-medium">
+          Registration Closes:{" "}
+          <span className="ml-3 text-primary">24th May</span>
+        </p>
+      </div>
+
       <div className="dateTime">
         <Clock />
       </div>
