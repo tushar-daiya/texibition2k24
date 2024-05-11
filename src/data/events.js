@@ -69,7 +69,7 @@ export const events = [
     event_name: "The PixelPulse",
     eventType: "Individual",
     event_description:
-      "Where Innovation Meets Design Poster Presentation/Digital Design event. IoT, Robotics, AI, Food and Beverages, Renewable and Non-renewable Energy, Waste management, Healthcare and Life Sciences Biotechnology, Green Technology (Not Limited to)",
+      "Get ready to unleash your creativity in our poster making competition, where innovation merges seamlessly with design. Whether you prefer digital or physical mediums, this is your chance to shine. Explore themes ranging from IoT, Robotics, AI, Food and Beverages, Renewable and Non-renewable Energy, Waste Management, Healthcare, Life Sciences Biotechnology, to Green Technology (not limited to).",
     rules: [
       "This is an Individual Event.",
       "Any department can participate.",

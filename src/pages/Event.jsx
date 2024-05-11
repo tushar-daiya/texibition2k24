@@ -16,20 +16,21 @@ const Event = () => {
   const handleMenuOpen = () => {
     setMenuOpen(!menuOpen);
   };
-  
+
   if (event) {
     return (
       <div className="relative">
-            {menuOpen && <GeneralInstruction onClick={handleMenuOpen} eventUrl={event.url} />}
+        {menuOpen && (
+          <GeneralInstruction onClick={handleMenuOpen} eventUrl={event.url} />
+        )}
         <div className={`relative mx-5 max-w-screen-xl md:mx-auto`}>
           <Heading text={event.event_name} />
           <div className="mt-5 flex flex-col rounded-2xl border border-solid border-white bg-white bg-opacity-10 backdrop-blur-md md:flex-row">
-
             <img
               loading="lazy"
               src={event.image}
               alt="Event"
-              className="poster w-full rounded-bl-2xl rounded-tl-2xl md:w-1/3"
+              className="poster w-full rounded-bl-none rounded-tl-2xl rounded-tr-2xl md:w-1/3 md:rounded-bl-2xl md:rounded-tr-none"
             />
             <div className="eventDetails flex flex-col justify-between overflow-y-scroll px-5 py-10 ">
               <div>
