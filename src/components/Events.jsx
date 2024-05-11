@@ -36,7 +36,7 @@ const Events = () => {
       y: 100,
       scrollTrigger: {
         trigger: document.getElementById("ghoonies"),
-        start: "top 50%",
+        start: "top 80%",
       },
       ease: "power2.out",
     });
