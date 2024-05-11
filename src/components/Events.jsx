@@ -47,26 +47,31 @@ const Events = () => {
       image: Bluster,
       url: "event/bluster",
       i: -2,
+      z: 1,
     },
     {
       image: Architect,
       url: "event/the-architect",
       i: -1,
+      z: 2,
     },
     {
       image: PixelPulse,
       url: "event/pixel-pulse",
       i: 1,
+      z: 2,
     },
     {
       image: Prompters,
       url: "event/the-prompters",
       i: 2,
+      z: 1,
     },
     {
       image: Intel,
       url: "event/intel-workshop",
       i: 0,
+      z: 3,
     },
   ];
 
@@ -169,7 +174,7 @@ const Events = () => {
                   <div
                     key={index}
                     className={`${events.length == 5 ? "posterholder1" : "posterholder2"}`}
-                    style={{ "--i": image.i }}
+                    style={{ "--i": image.i,"--z":image.z }}
                   >
                     <Link to={image.url}>
                       <img

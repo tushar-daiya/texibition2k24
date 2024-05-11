@@ -62,6 +62,7 @@
 .screen1:hover .posterholder1 {
   transform: rotate(calc(var(--i) * 5deg))
     translate(calc(var(--i) * 200px), -50px);
+  z-index: var(--z);
 }
 
 .screen1 .posterholder1:hover {
