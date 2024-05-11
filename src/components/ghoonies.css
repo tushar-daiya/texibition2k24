@@ -71,7 +71,7 @@
 }
 .screen1:hover .posterholder2 {
   transform: rotate(calc(var(--i) * 5deg))
-    translate(calc(var(--i) * 150px), -40px);
+    translate(calc(var(--i) * 120px), -40px);
 }
 .screen1 .posterholder2:hover {
   translate: calc(var(--i) * 20px) -50px;
