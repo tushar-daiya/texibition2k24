@@ -4,7 +4,7 @@ const Heading = ({ text }) => {
   const { ref, replay } = useScramble({
     text: text,
     playOnMount: true,
-    speed: 0.5,
+    speed: 0.9,
   });
   return (
     <div className="my-5 text-center">

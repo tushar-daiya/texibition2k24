@@ -9,7 +9,6 @@ export default {
       fontFamily: {
         chakra: ["Chakra Petch", "monospace"],
         clash: ["Clash", "sans-serif"],
-        akira: ["Akira", "sans-serif"],
       },
     },
   },

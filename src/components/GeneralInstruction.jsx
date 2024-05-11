@@ -31,7 +31,7 @@ const GeneralInstruction = ({ onClick, eventUrl }) => {
   ];
   return (
     <>
-      <div class="fixed inset-0 z-50 flex overflow-y-auto overflow-x-hidden outline-none focus:outline-none">
+      <div className="fixed inset-0 z-50 flex overflow-y-auto overflow-x-hidden outline-none focus:outline-none">
         <div className="relative top-80 mx-8 h-max max-w-screen-sm rounded-lg border-2 border-solid border-white/60 bg-black px-5 pb-5 sm:mx-auto md:top-40">
           <IoClose
             onClick={onClick} size={30}

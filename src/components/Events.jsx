@@ -81,7 +81,7 @@ const Events = () => {
       url: "event/pes",
       i: -2,
     },
-    
+
     {
       image: Free_Fire,
       url: "event/free-fire",
@@ -92,7 +92,6 @@ const Events = () => {
       url: "event/call-of-duty",
       i: -1,
     },
-    
   ];
 
   const [selected, setSelected] = useState("btn1");
@@ -122,12 +121,16 @@ const Events = () => {
         className="mx-auto flex max-w-[300px] justify-between font-medium xl:mb-20"
       >
         <button
+          name="btn1"
+          aria-label="Technical events"
           onClick={click1}
           className={`${selected == "btn1" ? "bg-primary text-white" : "bg-white text-black"}  px-5 py-2`}
         >
           Techincal events
         </button>
         <button
+          name="btn2"
+          aria-label="Gaming events"
           onClick={click2}
           className={`${selected == "btn2" ? "bg-primary text-white" : "bg-white text-black"}  px-5 py-2`}
         >

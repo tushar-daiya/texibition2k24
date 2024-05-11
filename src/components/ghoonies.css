@@ -10,7 +10,7 @@
 
 .posterholder {
   margin: 4px;
-  height: 350px;
+  aspect-ratio: 3/4;
   width: 300px;
   border-radius: 10px;
 }
@@ -52,8 +52,8 @@
 .screen1 .posterholder1,
 .posterholder2 {
   position: absolute;
-  height: 350px;
-  width: 250px;
+  aspect-ratio: 3/4;
+  width: 300px;
   cursor: pointer;
   transition: 0.5s;
   transform-origin: 50% 100%;

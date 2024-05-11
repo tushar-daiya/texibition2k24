@@ -68,6 +68,8 @@ const Navbar = () => {
               <img src="/logo_initial.webp" alt="logo" className="h-10" />
             </NavLink>
             <button
+              name="menu"
+              aria-label="Menu"
               className={`${menuOpen ? "active" : ""} burger z-50`}
               onClick={handleMenuOpen}
             ></button>
@@ -75,28 +77,28 @@ const Navbar = () => {
               className={`${menuOpen ? "active h-screen" : "h-0"} absolute left-0 top-0 flex w-full items-center justify-center overflow-hidden bg-black transition-all duration-700 ease-in-out`}
             >
               <div className="flex flex-col items-center gap-10 text-5xl">
-                <div class="menu-item">
+                <div className="menu-item">
                   <span id={`${pathname == "/" ? "active" : ""}`}>
                     <NavLink aria-label="Home Page" to={"/"}>
                       Home
                     </NavLink>
                   </span>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <span id={`${pathname == "/about" ? "active" : ""}`}>
                     <NavLink aria-label="About Page" to={"/about"}>
                       About
                     </NavLink>
                   </span>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <span id={`${pathname == "/contact" ? "active" : ""}`}>
                     <NavLink aria-label="Contact Page" to={"/contact"}>
                       Contact
                     </NavLink>
                   </span>
                 </div>
-                <div class="menu-item">
+                <div className="menu-item">
                   <span>
                     <NavLink aria-label="Brochure" to={"/"}>
                       Brochure
