@@ -148,7 +148,7 @@ const Events = () => {
           <div className="screen-main">
             <div className="screen" id="screenn">
               <div className="arrriii">
-                {events.map((image, index) => (
+                {events.toReversed().map((image, index) => (
                   <div key={index} className="posterholder animation">
                     <Link to={image.url}>
                       <img
@@ -174,7 +174,7 @@ const Events = () => {
                   <div
                     key={index}
                     className={`${events.length == 5 ? "posterholder1" : "posterholder2"}`}
-                    style={{ "--i": image.i,"--z":image.z }}
+                    style={{ "--i": image.i, "--z": image.z }}
                   >
                     <Link to={image.url}>
                       <img

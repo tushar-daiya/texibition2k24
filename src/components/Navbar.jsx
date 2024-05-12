@@ -45,6 +45,13 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li
+              className={`${pathname == "/events" ? "text-primary" : "text-white"}`}
+            >
+              <NavLink aria-label="Events" to={"/events"}>
+                <ScrambleTextHover text="Events" />
+              </NavLink>
+            </li>
+            <li
               className={`${pathname == "/about" ? "text-primary" : "text-white"}`}
             >
               <NavLink aria-label="About Page" to={"/about"}>
@@ -81,6 +88,13 @@ const Navbar = () => {
                   <span id={`${pathname == "/" ? "active" : ""}`}>
                     <NavLink aria-label="Home Page" to={"/"}>
                       Home
+                    </NavLink>
+                  </span>
+                </div>
+                <div className="menu-item">
+                  <span id={`${pathname == "/events" ? "active" : ""}`}>
+                    <NavLink aria-label="Events" to={"/events"}>
+                      Events
                     </NavLink>
                   </span>
                 </div>

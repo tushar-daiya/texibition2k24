@@ -45,7 +45,7 @@ const GeneralInstruction = ({ onClick, eventUrl }) => {
               <li key={index}>{instruction}</li>
             ))}
           </ul>
-          <div className="ml-2 mt-5 text-xl">
+          <div className="ml-2 my-5 text-xl">
             <input
               onChange={handleCheckbox}
               type="checkbox"
