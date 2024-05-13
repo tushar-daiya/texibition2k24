@@ -55,17 +55,6 @@ const Hero = () => {
       x: -100,
       ease: "power2.out",
     });
-    gsap.from(".register", {
-      duration: 1,
-      opacity: 0,
-      y: 100,
-      delay: 0.3,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: ".register",
-        start: "top 90%",
-      },
-    });
   });
 
   const [windowSize, setWindowSize] = React.useState(window.innerWidth);
