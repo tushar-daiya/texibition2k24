@@ -9,6 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
 import Events from "./pages/Events";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       </div>
       <Footer />
       <Analytics />
+      <SpeedInsights />
     </div>
   );
 };
