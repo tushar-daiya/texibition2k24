@@ -11,6 +11,7 @@ import Events from "./pages/Events";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import Team from "./pages/Team";
+import Page404 from "./pages/Page404";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/event/:eventId" element={<Event />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/team" element={<Team />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
       </div>
       <Footer />

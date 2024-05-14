@@ -32,7 +32,7 @@ const Footer = () => {
               <Link to="/" className="hover:text-primary" aria-label="Home">
                 <ScrambleTextHover text="Home" />
               </Link>
-              <Link to="/brochure.pdf" className="hover:text-primary" aria-label="Brochure">
+              <Link to="/" className="hover:text-primary" aria-label="Brochure">
                 <ScrambleTextHover text="Brochure" />
               </Link>
             </div>
