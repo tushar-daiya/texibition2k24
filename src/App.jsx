@@ -8,10 +8,9 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import About from "./pages/About";
 import Events from "./pages/Events";
-
+import { Analytics } from "@vercel/analytics/react";
 
 const App = () => {
-  
   return (
     <div>
       <ScrollToTop />
@@ -26,6 +25,7 @@ const App = () => {
         </Routes>
       </div>
       <Footer />
+      <Analytics />
     </div>
   );
 };
