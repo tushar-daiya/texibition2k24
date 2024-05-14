@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import Team from "./pages/Team";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/events" element={<Events />} />
           <Route path="/event/:eventId" element={<Event />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </div>
       <Footer />

@@ -65,6 +65,13 @@ const Navbar = () => {
                 <ScrambleTextHover text="Contact" />
               </NavLink>
             </li>
+            <li
+              className={`${pathname == "/team" ? "text-primary" : "text-white"}`}
+            >
+              <NavLink aria-label="Team Page" to={"/team"}>
+                <ScrambleTextHover text="Team" />
+              </NavLink>
+            </li>
             <li>
               <ScrambleTextHover text="Brochure" />
             </li>
@@ -109,6 +116,13 @@ const Navbar = () => {
                   <span id={`${pathname == "/contact" ? "active" : ""}`}>
                     <NavLink aria-label="Contact Page" to={"/contact"}>
                       Contact
+                    </NavLink>
+                  </span>
+                </div>
+                <div className="menu-item">
+                  <span id={`${pathname == "/team" ? "active" : ""}`}>
+                    <NavLink aria-label="Team Page" to={"/team"}>
+                      Team
                     </NavLink>
                   </span>
                 </div>
