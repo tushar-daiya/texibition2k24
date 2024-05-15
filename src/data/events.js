@@ -96,7 +96,7 @@ export const events = [
     url: "https://forms.gle/UgYa7i3ZQ8AWB3yU9",
     image: "/posters/intel.webp",
     eventId: "intel-workshop",
-    eventType: "Individual",
+    eventType: "Team (2 members max)",
     event_name:
       "Hands on workshop and Hackathon on GenAI within Intel DevCloud",
     event_description:
