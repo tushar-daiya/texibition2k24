@@ -27,6 +27,8 @@ const Event = () => {
           <Heading text={event.event_name} />
           <div className="mt-5 flex flex-col rounded-2xl border border-solid border-white bg-white bg-opacity-10 backdrop-blur-md md:flex-row">
             <img
+              width={426}
+              height={568}
               loading="lazy"
               src={event.image}
               alt="Event"

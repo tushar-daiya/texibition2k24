@@ -26,6 +26,8 @@ const Events = () => {
           >
             <Link to={`/event/${event.eventId}`}>
               <img
+                width={315}
+                height={420}
                 src={event.image}
                 alt="event"
                 className="h-full w-full object-cover transition-all hover:shadow-lg hover:shadow-primary"

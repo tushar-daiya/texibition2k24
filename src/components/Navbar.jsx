@@ -79,7 +79,7 @@ const Navbar = () => {
         ) : (
           <>
             <NavLink aria-label="Home Page" to={"/"}>
-              <img src="/logo_initial.webp" alt="logo" className="h-10" />
+              <img width={48} height={40} src="/logo_initial.webp" alt="logo" className="h-10" />
             </NavLink>
             <button
               name="menu"

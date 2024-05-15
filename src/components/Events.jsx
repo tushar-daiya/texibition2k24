@@ -152,6 +152,8 @@ const Events = () => {
                   <div key={index} className="posterholder animation">
                     <Link to={image.url}>
                       <img
+                        width={300}
+                        height={400}
                         loading="lazy"
                         className="image  "
                         key={index}
@@ -178,6 +180,8 @@ const Events = () => {
                   >
                     <Link to={image.url}>
                       <img
+                        width={300}
+                        height={400}
                         loading="lazy"
                         className="image1"
                         key={index}

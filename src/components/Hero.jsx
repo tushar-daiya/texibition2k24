@@ -74,6 +74,8 @@ const Hero = () => {
           BRAINWARE UNIVERSITY PRESENTS
         </h1>
         <img
+          width={636}
+          height={320}
           src="/logo.webp"
           className="logo mx-auto max-w-[80%] md:w-[50%]"
           alt=""
@@ -83,6 +85,8 @@ const Hero = () => {
           <div className="flex gap-5 ">
             <div>
               <img
+                width={96}
+                height={63}
                 src="/techclub_logo.webp"
                 alt="Tech Club Logo"
                 className="w-20 md:w-24"
@@ -90,6 +94,8 @@ const Hero = () => {
             </div>
             <div className="flex items-center">
               <img
+                width={128}
+                height={56}
                 src="/iic_logo.webp"
                 alt="IIC Logo"
                 className="w-28 md:w-32"
