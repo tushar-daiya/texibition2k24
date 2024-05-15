@@ -42,14 +42,18 @@ const Event = () => {
                   </p>
                 )}
 
-                <div className="font-xl mt-5 font-montserrat text-lg font-medium">
-                  <p className="text-primary">
+                <div className="font-xl mt-5 font-montserrat text-lg">
+                  <p className="font-medium text-primary">
                     Reg Fees :{" "}
-                    <span className="ml-5 text-white">{event.fees}</span>
+                    <span className="ml-5 font-normal text-white">
+                      {event.fees}
+                    </span>
                   </p>
-                  <p className="text-primary">
+                  <p className="font-medium text-primary">
                     Event Type :{" "}
-                    <span className="ml-5 text-white">{event.eventType}</span>
+                    <span className="ml-5 font-normal text-white">
+                      {event.eventType}
+                    </span>
                   </p>
                 </div>
                 {event.faculty_coordinator && (
