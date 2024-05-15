@@ -45,7 +45,7 @@ const Event = () => {
                 <div className="font-xl mt-5 font-montserrat text-lg">
                   <p className="font-medium text-primary">
                     Reg Fees :{" "}
-                    <span className="ml-5 font-normal text-white">
+                    <span className="ml-9 font-normal text-white">
                       {event.fees}
                     </span>
                   </p>
