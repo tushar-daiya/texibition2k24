@@ -9,12 +9,16 @@
 }
 
 @font-face {
-  font-family: "Clash";
-  src: url("./fonts/ClashDisplay-Variable.ttf");
+  font-family: "Alata";
+  src: url("./fonts/Alata.ttf");
 }
 @font-face {
   font-family: "Corporate";
   src: url("./fonts/CorporateGothic.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./fonts/Montserrat.ttf");
 }
 html {
   scroll-behavior: smooth;
@@ -29,7 +33,7 @@ html {
   );
 }
 body {
-  font-family: "Clash";
+  font-family: "Alata";
   background-color: black;
   color: white;
   overflow-x: hidden;

@@ -19,7 +19,7 @@ const Team = () => {
         {team1.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)]"
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)]"
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -33,7 +33,7 @@ const Team = () => {
         {team2.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -47,7 +47,7 @@ const Team = () => {
         {team3.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -61,7 +61,7 @@ const Team = () => {
         {team4.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -75,7 +75,7 @@ const Team = () => {
         {team5.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -89,7 +89,7 @@ const Team = () => {
         {team6.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>
@@ -103,7 +103,7 @@ const Team = () => {
         {team7.map((person) => (
           <div
             key={person.id}
-            className="w-full rounded-2xl border border-solid border-white/60 px-4 py-6 *:font-chakra hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
+            className="*:font-montserrat w-full rounded-2xl border border-solid border-white/60 px-4 py-6 hover:shadow-lg hover:shadow-primary sm:w-[calc(50%-24px)] md:w-[calc(33%-24px)] "
           >
             <p className="text-2xl font-bold text-primary">{person.name}</p>
             <p className="text-lg">{person.department}</p>

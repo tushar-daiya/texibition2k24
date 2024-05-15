@@ -37,18 +37,18 @@ const Event = () => {
             <div className="eventDetails flex flex-col justify-between overflow-y-scroll px-5 py-10 ">
               <div>
                 {event.event_description && (
-                  <p className="font-chakra text-lg leading-relaxed md:text-xl">
+                  <p className="font-montserrat text-lg leading-relaxed md:text-xl">
                     {event.event_description}
                   </p>
                 )}
 
-                <div className="font-xl mt-5 font-clash text-lg font-medium">
+                <div className="font-xl mt-5 font-alata text-lg font-medium">
                   <p className="text-primary">
-                    Reg Fees:{" "}
+                    Reg Fees :{" "}
                     <span className="ml-5 text-white">{event.fees}</span>
                   </p>
                   <p className="text-primary">
-                    Event Type:{" "}
+                    Event Type :{" "}
                     <span className="ml-5 text-white">{event.eventType}</span>
                   </p>
                 </div>
@@ -91,7 +91,7 @@ const Event = () => {
             <div className="mt-10">
               <div>
                 <p className="mt-5 text-center text-3xl font-bold">Rules</p>
-                <ul className="ml-5 list-disc *:mt-3 *:font-chakra *:text-lg marker:text-primary md:*:text-xl">
+                <ul className="ml-5 list-disc *:mt-3 *:font-montserrat *:text-lg marker:text-primary md:*:text-xl">
                   {event.rules.map((rule, index) => (
                     <li key={index}>{rule}</li>
                   ))}

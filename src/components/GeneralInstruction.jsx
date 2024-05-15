@@ -37,10 +37,10 @@ const GeneralInstruction = ({ onClick, eventUrl }) => {
             onClick={onClick} size={30}
             className="absolute right-5 top-5 cursor-pointer text-2xl text-white"
           />
-          <h1 className="mt-5 font-chakra text-3xl font-bold text-primary">
+          <h1 className="mt-5 font-montserrat text-3xl font-bold text-primary">
             General Instructions
           </h1>
-          <ul className="ml-5 list-disc *:mt-3 *:font-chakra *:text-lg marker:text-primary md:*:text-xl">
+          <ul className="ml-5 list-disc *:mt-3 *:font-montserrat *:text-lg marker:text-primary md:*:text-xl">
             {generalinstructions.map((instruction, index) => (
               <li key={index}>{instruction}</li>
             ))}

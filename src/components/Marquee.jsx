@@ -5,7 +5,7 @@ export default function Marquee() {
   const longText = "Brainware University";
   return (
     <section className="relative flex h-[12rem] flex-col overflow-hidden pt-6 ">
-      <div className="marquee2 font-clash tracking-widest text-primary/70">
+      <div className="marquee2 font-alata tracking-widest text-primary/70">
         {Array.from({ length: 3 }).map((_, index) => {
           return (
             <p key={index} className="text font-black">
@@ -14,7 +14,7 @@ export default function Marquee() {
           );
         })}
       </div>
-      <div className="marquee3 font-clash tracking-widest textStroke text-transparent">
+      <div className="marquee3 font-alata tracking-widest textStroke text-transparent">
         {Array.from({ length: 4 }).map((_, index) => {
           return (
             <p key={index} className="text textStroke text-primary font-black text-transparent">

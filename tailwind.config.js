@@ -7,8 +7,8 @@ export default {
         primary: "rgb(246 170 13)",
       },
       fontFamily: {
-        chakra: ["Chakra Petch", "monospace"],
-        clash: ["Clash", "sans-serif"],
+        montserrat: ["Montserrat", "monospace"],
+        alata: ["Alata", "sans-serif"],
         corporate: ["Corporate", "monospace"],
       },
     },
