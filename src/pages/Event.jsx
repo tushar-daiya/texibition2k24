@@ -42,7 +42,7 @@ const Event = () => {
                   </p>
                 )}
 
-                <div className="font-xl mt-5 font-alata text-lg font-medium">
+                <div className="font-xl mt-5 font-montserrat text-lg font-medium">
                   <p className="text-primary">
                     Reg Fees :{" "}
                     <span className="ml-5 text-white">{event.fees}</span>
@@ -54,11 +54,11 @@ const Event = () => {
                 </div>
                 {event.faculty_coordinator && (
                   <div className="mt-7 *:font-medium">
-                    <p className="mb-3 text-2xl text-primary">
+                    <p className="mb-3 font-alata text-2xl text-primary">
                       Faculty Coordinators
                     </p>
                     {event.faculty_coordinator.map((coordinator, index) => (
-                      <p key={index} className="mb-2 text-lg">
+                      <p key={index} className="mb-2 font-montserrat text-lg">
                         {coordinator.name}
                         {" ("}
                         {coordinator.department && (
@@ -69,11 +69,11 @@ const Event = () => {
                   </div>
                 )}
                 <div className="mt-7 *:font-medium">
-                  <p className="mb-3 text-2xl text-primary">
+                  <p className="mb-3 font-alata text-2xl text-primary">
                     Student Coordinators
                   </p>
                   {event.coordinators.map((coordinator, index) => (
-                    <p key={index} className="mb-2 text-lg">
+                    <p key={index} className="mb-2 font-montserrat text-lg">
                       {coordinator.name}:{" "}
                       <Link className="ml-5" to={`tel:${coordinator.phone}`}>
                         {coordinator.phone}

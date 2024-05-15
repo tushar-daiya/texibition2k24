@@ -21,25 +21,25 @@ const ContactComponent = ({ person }) => {
         </div>
       </div>
       <div className="py-2">
-        <p className="text-center font-alata text-xl font-medium text-primary">
+        <p className="text-center font-montserrat text-xl font-medium text-primary">
           <ScrambleTextHover text={person.post} />
         </p>
-        <p className="text-center font-alata text-lg font-medium">
+        <p className="text-center font-montserrat text-lg font-medium">
           Name : <span>{person.name}</span>
         </p>
         {person.department && (
-          <p className="text-center font-alata text-lg ">
+          <p className="text-center font-montserrat text-lg ">
             Department :{" "}
             <span className="break-words">{person.department}</span>
           </p>
         )}
         {person.faculty_post && (
-          <p className="break-words text-center font-alata text-lg ">
+          <p className="break-words text-center font-montserrat text-lg ">
             {person.faculty_post}
           </p>
         )}
         {person.phone && (
-          <p className="text-center font-alata text-lg">
+          <p className="text-center font-montserrat text-lg">
             Phone :{" "}
             <span>
               <Link to={`tel:${person.phone}`}>{person.phone}</Link>
@@ -47,7 +47,7 @@ const ContactComponent = ({ person }) => {
           </p>
         )}
         {person.whatsapp && (
-          <p className="text-center font-alata text-lg">
+          <p className="text-center font-montserrat text-lg">
             Phone :{" "}
             <span>
               <Link
