@@ -36,50 +36,69 @@ const Navbar = () => {
     <div className="fixed left-0 top-0 z-50 h-20 w-full border-b-2 border-solid border-white border-opacity-20 backdrop-blur-lg">
       <div className="flex h-full w-full items-center justify-between px-5">
         {windowSize > 768 ? (
-          <ul className="mx-auto flex w-full justify-between text-xl font-medium *:cursor-pointer md:w-max md:gap-8">
-            <li
-              className={`${pathname == "/" ? "text-primary" : "text-white"}`}
-            >
-              <NavLink aria-label="Home Page" to={"/"}>
-                <ScrambleTextHover text="Home" />
-              </NavLink>
-            </li>
-            <li
-              className={`${pathname == "/events" ? "text-primary" : "text-white"}`}
-            >
-              <NavLink aria-label="Events" to={"/events"}>
-                <ScrambleTextHover text="Events" />
-              </NavLink>
-            </li>
-            <li
-              className={`${pathname == "/about" ? "text-primary" : "text-white"}`}
-            >
-              <NavLink aria-label="About Page" to={"/about"}>
-                <ScrambleTextHover text="About" />
-              </NavLink>
-            </li>
-            <li
-              className={`${pathname == "/contact" ? "text-primary" : "text-white"}`}
-            >
-              <NavLink aria-label="Contact Page" to={"/contact"}>
-                <ScrambleTextHover text="Contact" />
-              </NavLink>
-            </li>
-            <li
-              className={`${pathname == "/team" ? "text-primary" : "text-white"}`}
-            >
-              <NavLink aria-label="Team Page" to={"/team"}>
-                <ScrambleTextHover text="Team" />
-              </NavLink>
-            </li>
-            <li>
-              <ScrambleTextHover text="Brochure" />
-            </li>
-          </ul>
-        ) : (
           <>
+            <div className="flex h-full w-full items-center justify-between px-5">
+              <NavLink aria-label="Home Page" to={"/"}>
+                <img
+                  width={48}
+                  height={48}
+                  src="/college_logo.webp"
+                  alt="logo"
+                  className="h-10 w-10"
+                />
+              </NavLink>
+            </div>
+            <ul className="mx-auto flex w-full justify-between text-xl font-medium *:cursor-pointer md:w-max md:gap-8">
+              <li
+                className={`${pathname == "/" ? "text-primary" : "text-white"}`}
+              >
+                <NavLink aria-label="Home Page" to={"/"}>
+                  <ScrambleTextHover text="Home" />
+                </NavLink>
+              </li>
+              <li
+                className={`${pathname == "/events" ? "text-primary" : "text-white"}`}
+              >
+                <NavLink aria-label="Events" to={"/events"}>
+                  <ScrambleTextHover text="Events" />
+                </NavLink>
+              </li>
+              <li
+                className={`${pathname == "/about" ? "text-primary" : "text-white"}`}
+              >
+                <NavLink aria-label="About Page" to={"/about"}>
+                  <ScrambleTextHover text="About" />
+                </NavLink>
+              </li>
+              <li
+                className={`${pathname == "/contact" ? "text-primary" : "text-white"}`}
+              >
+                <NavLink aria-label="Contact Page" to={"/contact"}>
+                  <ScrambleTextHover text="Contact" />
+                </NavLink>
+              </li>
+              <li
+                className={`${pathname == "/team" ? "text-primary" : "text-white"}`}
+              >
+                <NavLink aria-label="Team Page" to={"/team"}>
+                  <ScrambleTextHover text="Team" />
+                </NavLink>
+              </li>
+              <li>
+                <ScrambleTextHover text="Brochure" />
+              </li>
+            </ul>
+          </>
+        ) : (
+          <div className="flex h-full w-full items-center justify-between px-5">
             <NavLink aria-label="Home Page" to={"/"}>
-              <img width={48} height={40} src="/logo_initial.webp" alt="logo" className="h-10" />
+              <img
+                width={48}
+                height={40}
+                src="/college_logo.webp"
+                alt="logo"
+                className="h-10 w-10"
+              />
             </NavLink>
             <button
               name="menu"
@@ -135,7 +154,7 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
-          </>
+          </div>
         )}
       </div>
     </div>

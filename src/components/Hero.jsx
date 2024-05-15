@@ -70,8 +70,9 @@ const Hero = () => {
   return (
     <div className="border-b-2 border-solid border-white/10 pb-10">
       <div className=" py-10">
-        <h1 className="collegeName text-center text-lg font-medium  tracking-wider md:text-2xl">
-          BRAINWARE UNIVERSITY PRESENTS
+        <h1 className="collegeName text-center text-xl mb-5 font-medium tracking-wider md:text-3xl">
+          <p className="font-corporate">BRAINWARE UNIVERSITY</p>
+          <p className="text-xs md:text-base">PRESENTS</p>
         </h1>
         <img
           width={636}

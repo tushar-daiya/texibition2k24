@@ -12,6 +12,10 @@
   font-family: "Clash";
   src: url("./fonts/ClashDisplay-Variable.ttf");
 }
+@font-face {
+  font-family: "Corporate";
+  src: url("./fonts/CorporateGothic.ttf");
+}
 html {
   scroll-behavior: smooth;
 }

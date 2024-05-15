@@ -4,11 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#ce9b22",
+        primary: "rgb(246 170 13)",
       },
       fontFamily: {
         chakra: ["Chakra Petch", "monospace"],
         clash: ["Clash", "sans-serif"],
+        corporate: ["Corporate", "monospace"],
       },
     },
   },
