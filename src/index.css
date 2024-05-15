@@ -38,7 +38,6 @@ body {
   color: white;
   overflow-x: hidden;
   background-image: url("/background.webp");
-  backdrop-filter: blur(10px);
 
   background-repeat: no-repeat;
   background-size: 100% 100%;
