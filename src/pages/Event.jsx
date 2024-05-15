@@ -32,7 +32,7 @@ const Event = () => {
               loading="lazy"
               src={event.image}
               alt="Event"
-              className="poster w-full rounded-bl-none rounded-tl-2xl rounded-tr-2xl md:w-1/3 md:rounded-bl-2xl md:rounded-tr-none"
+              className="poster sticky w-full rounded-bl-none rounded-tl-2xl rounded-tr-2xl md:w-1/3 md:rounded-bl-2xl md:rounded-tr-none"
             />
             <div className="eventDetails flex flex-col justify-between overflow-y-scroll px-5 py-10 ">
               <div>
@@ -91,10 +91,21 @@ const Event = () => {
               </div>
             </div>
           </div>
+          {event.about && (
+            <div className="mt-10">
+              <div>
+                <p className="mt-5 text-center text-3xl font-bold text-primary">About</p>
+                <p
+                  dangerouslySetInnerHTML={{ __html: event.about }}
+                  className="mt-5 font-montserrat w-[98%] mx-auto text-lg"
+                ></p>
+              </div>
+            </div>
+          )}
           {event.rules && (
             <div className="mt-10">
               <div>
-                <p className="mt-5 text-center text-3xl font-bold">Rules</p>
+                <p className="mt-5 text-center text-3xl font-bold text-primary">Rules</p>
                 <ul className="ml-5 list-disc *:mt-3 *:font-montserrat *:text-lg marker:text-primary md:*:text-xl">
                   {event.rules.map((rule, index) => (
                     <li key={index}>{rule}</li>

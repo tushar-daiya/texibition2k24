@@ -96,6 +96,15 @@ export const events = [
     url: "https://forms.gle/UgYa7i3ZQ8AWB3yU9",
     image: "/posters/intel.webp",
     eventId: "intel-workshop",
+    about: `<b>Workshop:</b>
+    First 1 hour will be a workshop on NLP, prompt engineering, LLM models : 
+    About how to build a model in Machine Learning and NLP and how to use it.
+    <br><br>
+    <b>Hackathon:</b>
+    Then there's a hackathon which is a 3 hours of coding competition where participants must bring their laptops(wifi will be provided by the university). And they'll be provided with a sample code 2 days before the competition. 
+    <br>
+    During hackathon, participants will be given one dataset and problem statement. They have to crack the code using the help of internet. Intel will give access to use their cloud server also. After that certificates will be provided by the Intel.
+    `,
     eventType: "Team (2 members max)",
     event_name:
       "Hands on workshop and Hackathon on GenAI within Intel DevCloud",
