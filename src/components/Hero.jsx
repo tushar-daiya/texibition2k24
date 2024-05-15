@@ -70,7 +70,7 @@ const Hero = () => {
   return (
     <div className="border-b-2 border-solid border-white/10 pb-10">
       <div className=" py-10">
-        <h1 className="collegeName text-center text-xl mb-5 font-medium tracking-wider md:text-3xl">
+        <h1 className="collegeName mb-5 text-center text-xl font-medium tracking-wider md:text-3xl">
           <p className="font-corporate">BRAINWARE UNIVERSITY</p>
           <p className="text-xs md:text-base">PRESENTS</p>
         </h1>
