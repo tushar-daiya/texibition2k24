@@ -90,7 +90,7 @@ const Navbar = () => {
             </ul>
           </>
         ) : (
-          <div className="flex h-full w-full items-center justify-between px-5">
+          <div className="flex h-full w-full items-center justify-between px-2">
             <NavLink aria-label="Home Page" to={"/"}>
               <img
                 width={48}
