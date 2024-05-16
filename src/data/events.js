@@ -2,7 +2,7 @@ export const events = [
   {
     image: "/posters/bluster.webp",
     eventId: "bluster",
-    event_name: "The Blusters",
+    event_name: "The Bluster",
     event_description:
       "Step up to the challenge in our Competitive Programming Contest! Tackle a series of algorithmic puzzles designed to test your coding skills and problem-solving prowess. Compete against the best, sharpen your abilities, and vie for top honors and prizes. Whether you're a beginner or a seasoned coder, this competition is the perfect arena to prove your mettle! Join us and code your path to victory!",
     rules: [
@@ -32,7 +32,7 @@ export const events = [
   {
     image: "/posters/architect.webp",
     eventId: "the-architect",
-    event_name: "The Architects (Prototype Competition)",
+    event_name: "The Architect (Prototype Competition)",
     eventType: "Team (5 members max)",
     event_description:
       "Join The Architect, a hardware prototype competition! Showcase innovation and engineering skills to solve real-world challenges. Compete in robotics, IoT, or unique systems. Gain recognition and prizes! Themes: IoT, Robotics, AI, Food & Beverages, Renewable Energy, Waste Management, Healthcare & Biotech, Green Tech.",
