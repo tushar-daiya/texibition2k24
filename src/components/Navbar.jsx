@@ -107,7 +107,7 @@ const Navbar = () => {
               onClick={handleMenuOpen}
             ></button>
             <div
-              className={`${menuOpen ? "active h-screen" : "h-0"} absolute left-0 top-0 flex w-full items-center justify-center overflow-hidden bg-black transition-all duration-700 ease-in-out`}
+              className={`${menuOpen ? "active h-screen" : "h-0"} absolute left-0 top-0 flex w-full items-center justify-center overflow-hidden bg-black transition-all duration-300 ease-in-out`}
             >
               <div className="flex flex-col items-center gap-10 text-5xl">
                 <div className="menu-item">
