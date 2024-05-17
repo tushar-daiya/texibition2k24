@@ -40,6 +40,11 @@ export const events = [
     eventId: "the-architect",
     event_name: "The Architect (Prototype Competition)",
     eventType: "Team (5 members max)",
+    about: `Welcome to <b>The Architect</b>, where great innovating minds converge!
+<br>
+    Are you the brainiac of your team or are you the builder? If you have an idea, bring it to fruition and share it with the world! The Architect awaits your participation. Be it a hardware, such as a model that you have been working on or a program that you have put hours and sleepless nights into, the Architect in you, must be brought out into the light. 
+    <br>
+    So hold your horses, set your alarms, as time ticks down. Take part in the ultimate showdown at the Architect as you witness and develop projects. For let's not forget the goal of Texibition is to "Design. Build. Grow."`,
     event_description:
       "Join The Architect, a hardware prototype competition! Showcase innovation and engineering skills to solve real-world challenges. Compete in robotics, IoT, or unique systems. Gain recognition and prizes! Themes: IoT, Robotics, AI, Food & Beverages, Renewable Energy, Waste Management, Healthcare & Biotech, Green Tech.",
     rules: [
