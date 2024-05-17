@@ -15,10 +15,12 @@ const MainPage = () => {
   return (
     <div className="relative">
       {showPrizes && (
-        <div className="fixed left-0 top-0 z-50 flex h-[100dvh] w-full items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm sm:pb-10 sm:pr-10">
-          <div className="relative mx-5 w-full rounded-2xl border border-white/60 bg-white/20 px-10 py-8 sm:w-max ">
+        <div className="fixed left-0 top-0 z-50 flex h-[100dvh] w-full bg-black bg-opacity-50 backdrop-blur-sm sm:pb-10 sm:pr-10">
+          <div className="relative mx-5 ml-auto w-full self-end rounded-2xl px-10 py-8 sm:w-max ">
             <div className="  text-center md:px-5  md:py-4">
               <img
+                width={160}
+                height={140}
                 src="/prizepool.webp"
                 alt="prize money"
                 className="mx-auto w-40"

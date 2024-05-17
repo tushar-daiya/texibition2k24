@@ -82,26 +82,15 @@ const Hero = () => {
           alt=""
         />
         <div className="organizers mx-auto mt-5 w-max">
-          <p className="mb-5 text-center text-xl font-medium">Organised By</p>
-          <div className="flex gap-5 ">
-            <div>
-              <img
-                width={96}
-                height={63}
-                src="/techclub_logo.webp"
-                alt="Tech Club Logo"
-                className="w-20 md:w-24"
-              />
-            </div>
-            <div className="flex items-center">
-              <img
-                width={128}
-                height={56}
-                src="/iic_logo.webp"
-                alt="IIC Logo"
-                className="w-28 md:w-32"
-              />
-            </div>
+          <p className="mb-2 text-center text-base font-medium">Organised By</p>
+          <div>
+            <img
+              width={96}
+              height={63}
+              src="/organisedby.png"
+              alt="Tech Club Logo"
+              className="w-44 md:w-56"
+            />
           </div>
         </div>
       </div>
