@@ -3,6 +3,12 @@ export const events = [
     image: "/posters/bluster.webp",
     eventId: "bluster",
     event_name: "The Bluster",
+    about: `Welcome to <b>The Bluster</b>, the premier inter-college coding competition that challenges individual coding talent. Students from colleges and universities across the region come together to tackle a series of algorithmic and problem-solving tasks, showcasing their programming skills and creativity.
+    <br>
+    The Bluster offers more than just a competitive edge; it provides opportunities for personal and professional growth. Participants will benefit from workshops, mentorship sessions, and networking with like-minded peers.
+    <br>
+    Join us at The Bluster to showcase your talent, connect with fellow coders, and elevate your programming skills.
+    `,
     event_description:
       "Step up to the challenge in our Competitive Programming Contest! Tackle a series of algorithmic puzzles designed to test your coding skills and problem-solving prowess. Compete against the best, sharpen your abilities, and vie for top honors and prizes. Whether you're a beginner or a seasoned coder, this competition is the perfect arena to prove your mettle! Join us and code your path to victory!",
     rules: [
@@ -144,6 +150,14 @@ export const events = [
     eventId: "the-prompters",
     eventType: "Team (2 members max)",
     event_name: "The Prompters",
+    about: `Join us at <b>The Prompters</b>, an exciting challenge at <b>Texibition 2024</b>  competition on May 29th at Brainware University.
+    <br>
+    You'll need to track down an exact match of a given image using your best search techniques as well as unleash your inner artist by using an AI model to recreate a provided image as closely as possible. 
+    <br>
+    Sharpen your digital detective skills to dive into the depths of the internet, hunt down images with eagle-eyed precision and then in a twist of creativity, use cutting-edge AI to recreate those images from scratch.
+    <br>
+    Don't miss your chance to shine!!
+    `,
     event_description:
       "It is an exhilarating online competition where teams of two, try to connect a pair of photos in the best possible way and decipher the answer under time constraint. The first two rounds will be a googling round where Teams to need to google the exact picture shown in the screen, it'll be a time-based round in which whichever teams does first moves ahead. The Final Round will be an AI Prompting Round where the Teams will have to generate similar picture to what they see on Screen.",
     rules: [
