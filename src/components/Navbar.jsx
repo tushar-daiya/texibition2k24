@@ -39,13 +39,7 @@ const Navbar = () => {
           <>
             <div className="flex h-full w-full items-center justify-between px-5">
               <NavLink aria-label="Home Page" to={"/"}>
-                <img
-                  width={48}
-                  height={48}
-                  src="/college_logo.webp"
-                  alt="logo"
-                  className="h-10 w-10"
-                />
+                <img src="/bwulogo.png" alt="logo" className="h-5" />
               </NavLink>
             </div>
             <ul className="mx-auto flex w-full justify-between text-xl font-medium *:cursor-pointer md:w-max md:gap-8">
@@ -92,13 +86,7 @@ const Navbar = () => {
         ) : (
           <div className="flex h-full w-full items-center justify-between px-2">
             <NavLink aria-label="Home Page" to={"/"}>
-              <img
-                width={48}
-                height={40}
-                src="/college_logo.webp"
-                alt="logo"
-                className="h-10 w-10"
-              />
+              <img src="/bwulogo.png" alt="logo" className="h-5" />
             </NavLink>
             <button
               name="menu"
