@@ -94,10 +94,12 @@ const Event = () => {
           {event.about && (
             <div className="mt-10">
               <div>
-                <p className="mt-5 text-center text-3xl font-bold text-primary">About</p>
+                <p className="mt-5 text-center text-3xl font-bold text-primary">
+                  About the event
+                </p>
                 <p
                   dangerouslySetInnerHTML={{ __html: event.about }}
-                  className="mt-5 font-montserrat w-[98%] mx-auto text-lg"
+                  className="mx-auto mt-5 w-[98%] font-montserrat text-lg"
                 ></p>
               </div>
             </div>
@@ -105,7 +107,9 @@ const Event = () => {
           {event.rules && (
             <div className="mt-10">
               <div>
-                <p className="mt-5 text-center text-3xl font-bold text-primary">Rules</p>
+                <p className="mt-5 text-center text-3xl font-bold text-primary">
+                  Rules
+                </p>
                 <ul className="ml-5 list-disc *:mt-3 *:font-montserrat *:text-lg marker:text-primary md:*:text-xl">
                   {event.rules.map((rule, index) => (
                     <li key={index}>{rule}</li>

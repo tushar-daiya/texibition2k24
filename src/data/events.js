@@ -68,6 +68,8 @@ export const events = [
     eventId: "pixel-pulse",
     event_name: "The PixelPulse",
     eventType: "Individual",
+    about: ` Participants are required to bring their posters, which may be either handmade or digital presentations. All necessary materials must be brought and retained by the participants. This is an individual competition. After the completion of the event, the judges will evaluate the posters based on the theme, originality, innovation, visual impact, and overall concept.
+    `,
     event_description:
       "Get ready to unleash your creativity in our poster making competition, where innovation merges seamlessly with design. Whether you prefer digital or physical mediums, this is your chance to shine. Explore themes ranging from IoT, Robotics, AI, Food and Beverages, Renewable and Non-renewable Energy, Waste Management, Healthcare, Life Sciences Biotechnology, to Green Technology (not limited to).",
     rules: [
