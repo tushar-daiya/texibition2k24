@@ -78,9 +78,9 @@ const Navbar = () => {
                   <ScrambleTextHover text="Team" />
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <ScrambleTextHover text="Brochure" />
-              </li>
+              </li> */}
             </ul>
           </>
         ) : (
@@ -133,13 +133,13 @@ const Navbar = () => {
                     </NavLink>
                   </span>
                 </div>
-                <div className="menu-item">
+                {/* <div className="menu-item">
                   <span>
                     <NavLink aria-label="Brochure" to={"/"}>
                       Brochure
                     </NavLink>
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

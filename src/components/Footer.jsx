@@ -32,16 +32,20 @@ const Footer = () => {
               <Link to="/" className="hover:text-primary" aria-label="Home">
                 <ScrambleTextHover text="Home" />
               </Link>
-              <Link to="/" className="hover:text-primary" aria-label="Brochure">
-                <ScrambleTextHover text="Brochure" />
+              <Link to="/" className="hover:text-primary" aria-label="Events">
+                <ScrambleTextHover text="Events" />
               </Link>
             </div>
             <div className="flex flex-col gap-2">
-              <Link to="/contact" className="hover:text-primary" aria-label="Contact">
+              <Link
+                to="/contact"
+                className="hover:text-primary"
+                aria-label="Contact"
+              >
                 <ScrambleTextHover text="Contact" />
               </Link>
-              <Link to="/about" className="hover:text-primary" aria-label="About">
-                <ScrambleTextHover text="About" />
+              <Link to="/" className="hover:text-primary" aria-label="Team">
+                <ScrambleTextHover text="Team" />
               </Link>
             </div>
           </div>
