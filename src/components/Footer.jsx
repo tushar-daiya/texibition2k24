@@ -58,7 +58,7 @@ const Footer = () => {
               <Link
                 aria-label="Instagram"
                 target="_blank"
-                to="https://www.instagram.com/brainware_university_kolkata/?hl=en"
+                to="https://www.instagram.com/texibition2k24/"
                 className="social-links flex min-h-[12rem] min-w-[5rem] grow-[1] items-center justify-center hover:text-primary"
               >
                 <FaInstagram
