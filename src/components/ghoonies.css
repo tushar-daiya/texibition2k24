@@ -10,7 +10,7 @@
 
 .posterholder {
   margin: 4px;
-  aspect-ratio: 3/4;
+  aspect-ratio: 0.7;
   width: 300px;
   border-radius: 10px;
 }
@@ -39,7 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   flex-direction: column-reverse;
 }
 
@@ -52,7 +52,7 @@
 .screen1 .posterholder1,
 .posterholder2 {
   position: absolute;
-  aspect-ratio: 3/4;
+  aspect-ratio: 0.7;
   width: 300px;
   cursor: pointer;
   transition: 0.5s;

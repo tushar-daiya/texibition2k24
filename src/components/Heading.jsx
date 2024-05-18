@@ -12,7 +12,7 @@ const Heading = ({ text }) => {
         ref={ref}
         onMouseOver={replay}
         onFocus={replay}
-        className="text-4xl font-extrabold md:text-6xl "
+        className="text-4xl leading-snug font-extrabold md:text-6xl md:leading-snug "
       ></h1>
     </div>
   );
