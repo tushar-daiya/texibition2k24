@@ -4,6 +4,11 @@ import { useLocation } from "react-router-dom/dist";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { AiFillInstagram } from "react-icons/ai";
+import { IoLogoYoutube } from "react-icons/io";
+import { FaLinkedin, FaMapMarkerAlt } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   const { pathname } = useLocation();
@@ -95,7 +100,7 @@ const Navbar = () => {
               onClick={handleMenuOpen}
             ></button>
             <div
-              className={`${menuOpen ? "active h-screen" : "h-0"} absolute left-0 top-0 flex w-full items-center justify-center overflow-hidden bg-black transition-all duration-300 ease-in-out`}
+              className={`${menuOpen ? "active h-[100dvh]" : "h-0"} absolute left-0 top-0 flex w-full items-center justify-center overflow-hidden bg-black transition-all duration-300 ease-in-out`}
             >
               <div className="flex flex-col items-center gap-10 text-5xl">
                 <div className="menu-item">
@@ -140,6 +145,63 @@ const Navbar = () => {
                     </NavLink>
                   </span>
                 </div> */}
+              </div>
+              <div className="absolute bottom-4 flex gap-4">
+                <Link
+                  aria-label="Instagram"
+                  target="_blank"
+                  to="https://www.instagram.com/texibition2k24/"
+                  className=" hover:text-primary"
+                >
+                  <AiFillInstagram
+                    className="transition-all hover:scale-110"
+                    size="2rem"
+                  />
+                </Link>
+                <Link
+                  aria-label="Youtube"
+                  target="_blank"
+                  to="https://www.youtube.com/channel/UCcx0a7Ab_FMzscRA8AignVQ"
+                  className=" hover:text-primary"
+                >
+                  <IoLogoYoutube
+                    className="transition-all hover:scale-110"
+                    size="2rem"
+                  />
+                </Link>
+                <Link
+                  aria-label="LinkedIn"
+                  target="_blank"
+                  to="https://www.linkedin.com/school/brainwareuniversity/?originalSubdomain=in"
+                  className=" hover:text-primary"
+                >
+                  <FaLinkedin
+                    className="transition-all hover:scale-110"
+                    size="2rem"
+                  />
+                </Link>
+                <Link
+                  aria-label="Twitter"
+                  target="_blank"
+                  to="https://twitter.com/BrainwareTweet"
+                  className=" hover:text-primary"
+                >
+                  <FaSquareXTwitter
+                    className="transition-all hover:scale-110"
+                    size="2rem"
+                  />
+                </Link>
+                <Link
+                  aria-label="Location"
+                  target="_blank"
+                  to="https://www.google.com/maps/place/Brainware+University/@22.7320243,88.4998499,15z/data=!4m6!3m5!1s0x39f89c04b6fe4559:0xa012120ab7f1da34!8m2!3d22.7320243!4d88.4998499!16s%2Fg%2F11cn6bkvfm?entry=ttu"
+                  className=" hover:text-primary"
+                >
+                  <FaMapMarkerAlt
+                    className="transition-all hover:scale-110"
+                    size="2rem"
+                  />
+                </Link>
               </div>
             </div>
           </div>
