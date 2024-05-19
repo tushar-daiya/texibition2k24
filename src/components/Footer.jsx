@@ -4,11 +4,12 @@ import { AiFillInstagram } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import ScrambleTextHover from "./ScrambleTextHover";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoLogoYoutube } from "react-icons/io";
 const Footer = () => {
   return (
-    <footer className="mt-10 flex flex-col border-t-2 border-white/40 px-5  py-10 md:flex-row md:items-center md:justify-between md:px-20">
+    <footer className="mt-10 flex flex-col items-center border-t-2 border-white/40  px-5 py-10 md:flex-row md:items-center md:justify-between md:px-20">
       <div>
-        <p className="text-3xl font-bold">
+        <p className="text-center text-3xl font-bold md:text-start">
           <Link to="/" className="hover:text-primary" aria-label="Texibition">
             <ScrambleTextHover text="Texibition" />
           </Link>
@@ -36,8 +37,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-8 flex flex-col gap-4 md:mt-0">
-        <div>
-          <p className="md:text-end">Get in Touch</p>
+        <div className="">
+          <p className="text-center md:text-end">Get in Touch</p>
           <p>
             <Link
               aria-label="Mail to Tech Club"
@@ -66,7 +67,10 @@ const Footer = () => {
             to="https://www.youtube.com/channel/UCcx0a7Ab_FMzscRA8AignVQ"
             className=" hover:text-primary"
           >
-            <FaYoutube className="transition-all hover:scale-110" size="2rem" />
+            <IoLogoYoutube
+              className="transition-all hover:scale-110"
+              size="2rem"
+            />
           </Link>
           <Link
             aria-label="LinkedIn"
