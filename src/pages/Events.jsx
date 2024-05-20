@@ -21,6 +21,7 @@ const Events = () => {
             data-tilt-glare
             data-tilt-max-glare="0.8"
             data-tilt-scale="1.05"
+            gyroscrope={false}
             key={event.i}
             className="eventDiv"
           >
