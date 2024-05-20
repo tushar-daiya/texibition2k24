@@ -2,6 +2,7 @@ export const events = [
   {
     image: "/posters/bluster.webp",
     eventId: "bluster",
+    isClosed: false,
     event_name: "The Bluster",
     about: `Welcome to <b>The Bluster</b>, the premier inter-college coding competition that challenges individual coding talent. Students from colleges and universities across the region come together to tackle a series of algorithmic and problem-solving tasks, showcasing their programming skills and creativity.
     <br>
@@ -37,6 +38,7 @@ export const events = [
   },
   {
     image: "/posters/architect.webp",
+    isClosed: false,
     eventId: "the-architect",
     event_name: "The Architect (Prototype Competition)",
     eventType: "Team (5 members max)",
@@ -76,6 +78,7 @@ export const events = [
   },
   {
     image: "/posters/pixel_pulse.webp",
+    isClosed: false,
     eventId: "pixel-pulse",
     event_name: "The PixelPulse",
     eventType: "Individual",
@@ -107,6 +110,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/UgYa7i3ZQ8AWB3yU9",
+    isClosed: true,
     image: "/posters/intel.webp",
     eventId: "intel-workshop",
     about: `<b>Workshop:</b>
@@ -151,6 +155,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/3ufFZXgeUrbNf4Yd6",
+    isClosed: false,
     image: "/posters/prompters.webp",
     eventId: "the-prompters",
     eventType: "Team (2 members max)",
@@ -187,6 +192,7 @@ export const events = [
   },
   {
     image: "/posters/cod.webp",
+    isClosed: false,
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
     eventId: "call-of-duty",
     event_name: "Call of Duty",
@@ -226,6 +232,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
+    isClosed: false,
     image: "/posters/pes.webp",
     eventId: "pes",
     event_name: "PES",
@@ -266,6 +273,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
+    isClosed: false,
     image: "/posters/bgmi.webp",
     eventId: "bgmi",
     eventType: "Team (4 members max)",
@@ -305,6 +313,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
+    isClosed: false,
     image: "/posters/free_fire.webp",
     eventId: "free-fire",
     eventType: "Team (4 members max)",

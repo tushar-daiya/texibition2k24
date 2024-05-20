@@ -87,7 +87,16 @@ const Event = () => {
                 </div>
               </div>
               <div className="mt-5 text-center md:mt-0">
-                <RegisterButton onClick={handleMenuOpen} />
+                {event.isClosed ? (
+                  <button
+                    disabled
+                    className="w-full border-2 border-solid border-black bg-white/40 px-10 py-3 text-xl font-medium"
+                  >
+                    Registrations Closed
+                  </button>
+                ) : (
+                  <RegisterButton onClick={handleMenuOpen} />
+                )}
               </div>
             </div>
           </div>
