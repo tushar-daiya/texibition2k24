@@ -14,13 +14,21 @@ import Team from "./pages/Team";
 import Page404 from "./pages/Page404";
 import { useEffect } from "react";
 import { IoIosCloseCircleOutline } from "react-icons/io";
+import Marquee from "react-fast-marquee";
 
 const App = () => {
   return (
     <div>
       <ScrollToTop />
       <Navbar />
-      <div className="pt-20">
+      <div className="mt-20 w-full bg-primary py-2 text-xl">
+        <Marquee delay={2} pauseOnHover>
+          Sorry for the inconvenience, the transaction method has been fixed.
+          Kindly try again using the QR in registration forms.
+          &nbsp;&nbsp;&nbsp;
+        </Marquee>
+      </div>
+      <div className="">
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/about" element={<About />} />
