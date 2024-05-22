@@ -148,7 +148,7 @@ const Events = () => {
           <div className="screen-main">
             <div className="screen" id="screenn">
               <div className="arrriii">
-                {events.toReversed().map((image, index) => (
+                {events.map((image, index) => (
                   <div key={index} className="posterholder animation">
                     <Link to={image.url}>
                       <img
