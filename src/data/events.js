@@ -81,13 +81,13 @@ export const events = [
     isClosed: false,
     eventId: "pixel-pulse",
     event_name: "The PixelPulse",
-    eventType: "Individual",
+    eventType: "Team(Min 1 and max 2)",
     about: ` Participants are required to bring their posters, which may be either handmade or digital presentations. All necessary materials must be brought and retained by the participants. This is an individual competition. After the completion of the event, the judges will evaluate the posters based on the theme, originality, innovation, visual impact, and overall concept.
     `,
     event_description:
       "Get ready to unleash your creativity in our poster making competition, where innovation merges seamlessly with design. Whether you prefer digital or physical mediums, this is your chance to shine. Explore themes ranging from IoT, Robotics, AI, Food and Beverages, Renewable and Non-renewable Energy, Waste Management, Healthcare, Life Sciences Biotechnology, to Green Technology (not limited to).",
     rules: [
-      "This is an Individual Event.",
+      "This is an Team event. A team can consists of a minimum of 1 and maximum of 2 members.",
       "Any department can participate.",
       "The participants have to enter within the scheduled time, otherwise there may be negative marks.",
       "Only the Space, Table, Sitting Arrangement, and electric supply will be provided by the university.",
@@ -99,7 +99,7 @@ export const events = [
       "Participants will be provided a participation certificate.",
       "The decision of the judges will be final and should not be challenged under any circumstances.",
     ],
-    fees: "Rs. 100.00/-",
+    fees: "Rs. 100.00 per team",
     coordinators: [
       {
         name: "Aritri Podder",
