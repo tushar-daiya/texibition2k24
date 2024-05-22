@@ -87,7 +87,7 @@ export const events = [
     event_description:
       "Get ready to unleash your creativity in our poster making competition, where innovation merges seamlessly with design. Whether you prefer digital or physical mediums, this is your chance to shine. Explore themes ranging from IoT, Robotics, AI, Food and Beverages, Renewable and Non-renewable Energy, Waste Management, Healthcare, Life Sciences Biotechnology, to Green Technology (not limited to).",
     rules: [
-      "This is an Team event. A team can consists of a minimum of 1 and maximum of 2 members.",
+      "This is a Team event. A team can consist of a minimum of 1 and maximum of 2 members.",
       "Any department can participate.",
       "The participants have to enter within the scheduled time, otherwise there may be negative marks.",
       "Only the Space, Table, Sitting Arrangement, and electric supply will be provided by the university.",
