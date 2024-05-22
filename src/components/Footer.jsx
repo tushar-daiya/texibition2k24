@@ -75,7 +75,7 @@ const Footer = () => {
           <Link
             aria-label="LinkedIn"
             target="_blank"
-            to="https://www.linkedin.com/school/brainwareuniversity/?originalSubdomain=in"
+            to="https://www.linkedin.com/company/texibition/"
             className=" hover:text-primary"
           >
             <FaLinkedin
