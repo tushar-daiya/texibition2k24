@@ -192,7 +192,7 @@ export const events = [
   },
   {
     image: "/posters/cod.webp",
-    isClosed: true,
+    isClosed: false,
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
     eventId: "call-of-duty",
     event_name: "Call of Duty",
@@ -232,7 +232,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    isClosed: true,
+    isClosed: false,
     image: "/posters/pes.webp",
     eventId: "pes",
     event_name: "PES",
@@ -273,7 +273,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    isClosed: true,
+    isClosed: false,
     image: "/posters/bgmi.webp",
     eventId: "bgmi",
     eventType: "Team (4 members max)",
