@@ -313,7 +313,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    isClosed: false,
+    isClosed: true,
     image: "/posters/free_fire.webp",
     eventId: "free-fire",
     eventType: "Team (4 members max)",
