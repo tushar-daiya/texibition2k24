@@ -21,14 +21,14 @@ const App = () => {
     <div>
       <ScrollToTop />
       <Navbar />
-      <div className="mt-20 w-full bg-primary text-black py-2 text-xl">
+      {/* <div className="mt-20 w-full bg-primary text-black py-2 text-xl">
         <Marquee delay={2} pauseOnHover>
           We apologize for the inconvenience. The transaction issue has been
           resolved. Please try again using the QR code on the
           registration forms. &nbsp;&nbsp;&nbsp;
         </Marquee>
-      </div>
-      <div className="">
+      </div> */}
+      <div className="pt-20">
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/about" element={<About />} />

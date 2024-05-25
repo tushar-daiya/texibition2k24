@@ -2,7 +2,7 @@ export const events = [
   {
     image: "/posters/bluster.webp",
     eventId: "bluster",
-    isClosed: false,
+    isClosed: true,
     event_name: "The Bluster",
     about: `Welcome to <b>The Bluster</b>, the premier inter-college coding competition that challenges individual coding talent. Students from colleges and universities across the region come together to tackle a series of algorithmic and problem-solving tasks, showcasing their programming skills and creativity.
     <br>
@@ -38,7 +38,7 @@ export const events = [
   },
   {
     image: "/posters/architect.webp",
-    isClosed: false,
+    isClosed: true,
     eventId: "the-architect",
     event_name: "The Architect (Prototype Competition)",
     eventType: "Team (5 members max)",
@@ -78,7 +78,7 @@ export const events = [
   },
   {
     image: "/posters/pixel_pulse.webp",
-    isClosed: false,
+    isClosed: true,
     eventId: "pixel-pulse",
     event_name: "The PixelPulse",
     eventType: "Team(Min 1 and max 2)",
@@ -155,7 +155,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/3ufFZXgeUrbNf4Yd6",
-    isClosed: false,
+    isClosed: true,
     image: "/posters/prompters.webp",
     eventId: "the-prompters",
     eventType: "Team (2 members max)",
@@ -192,7 +192,7 @@ export const events = [
   },
   {
     image: "/posters/cod.webp",
-    isClosed: false,
+    isClosed: true,
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
     eventId: "call-of-duty",
     event_name: "Call of Duty",
@@ -232,7 +232,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    isClosed: false,
+    isClosed: true,
     image: "/posters/pes.webp",
     eventId: "pes",
     event_name: "PES",
@@ -273,7 +273,7 @@ export const events = [
   },
   {
     url: "https://forms.gle/qwncoDkSNB3VPs7v6",
-    isClosed: false,
+    isClosed: true,
     image: "/posters/bgmi.webp",
     eventId: "bgmi",
     eventType: "Team (4 members max)",

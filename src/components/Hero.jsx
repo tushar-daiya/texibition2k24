@@ -101,8 +101,8 @@ const Hero = () => {
       )}
       <div className="registrationEnd mx-auto w-max">
         <p className="mb-5 text-center text-2xl font-medium">
-          Registration Closes:{" "}
-          <span className="ml-3 text-primary">24th May</span>
+          Registrations Closed
+          {/* <span className="ml-3 text-primary">24th May</span> */}
         </p>
       </div>
 
