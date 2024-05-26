@@ -50,18 +50,18 @@ const MainPage = () => {
         </div>
       )}
       {showSponsor && (
-        <div className="fixed left-0 top-0 z-50 flex h-[100dvh] w-full bg-black bg-opacity-50 backdrop-blur-sm sm:pb-10 sm:pr-10">
-          <div className="relative mx-5 w-full self-end rounded-2xl bg-white bg-opacity-10 px-10 py-8 backdrop-blur-lg sm:ml-auto sm:w-max sm:bg-opacity-100 sm:bg-transparent sm:backdrop-blur-none sm:backdrop-filter-none ">
+        <div className="fixed left-0 top-0 z-50 flex items-center justify-center h-[100dvh] w-full bg-black bg-opacity-50 backdrop-blur-sm sm:pb-10 sm:pr-10">
+          <div className="relative mx-5 w-full rounded-2xl bg-white bg-opacity-5 px-10 py-8 backdrop-blur-lg sm:w-max ">
             <p className="mb-4 text-center text-primary font-alata text-4xl font-bold">
               Food Sponsor
             </p>
             <div className="  text-center md:px-5  md:py-4">
               <img
-                width={320}
-                height={128}
+                width={500}
+                height={200}
                 src="/sponsor.webp"
                 alt="sponsor"
-                className="mx-auto w-80"
+                className="mx-auto w-[500px]"
               />
               <p className="mt-4 max-w-[40ch] text-xl font-bold ">
                 Join us on the 28th and the 29th of May in the Texibition Fest
