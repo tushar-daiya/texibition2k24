@@ -83,6 +83,13 @@ const Navbar = () => {
                   <ScrambleTextHover text="Team" />
                 </NavLink>
               </li>
+              <li
+                className={`${pathname == "/schedule" ? "text-primary" : "text-white"}`}
+              >
+                <a aria-label="Schedule Page" href={"/TexibitionSchedule.pdf"}>
+                  <ScrambleTextHover text="Schedule" />
+                </a>
+              </li>
               {/* <li>
                 <ScrambleTextHover text="Brochure" />
               </li> */}
@@ -137,6 +144,14 @@ const Navbar = () => {
                       Team
                     </NavLink>
                   </span>
+                </div>
+                <div className="menu-item">
+                  <a
+                    aria-label="Schedule Page"
+                    href={"/TexibitionSchedule.pdf"}
+                  >
+                    <ScrambleTextHover text="Schedule" />
+                  </a>
                 </div>
                 {/* <div className="menu-item">
                   <span>
