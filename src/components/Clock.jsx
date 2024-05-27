@@ -4,7 +4,7 @@ export function Clock() {
     <div className="my-2 flex w-screen justify-center lg:mb-8 ">
       <div className="border-gray/50 z-[10] flex w-[100] flex-col items-center justify-center pb-5 font-alata text-[3rem] tracking-[1rem] text-white md:border md:text-[4rem] xl:w-[35rem] xl:pb-10">
         <Countdown
-          date={new Date("2024-05-28T00:00:00")}
+          date={new Date("2024-05-28T09:00:00")}
           className="text-[2rem] xl:text-[4rem]"
         />
 
